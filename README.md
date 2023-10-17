@@ -6,48 +6,86 @@ O projeto contido neste repositório contempla a configuração de um banco de d
 
 Uma vez que os arquivos DockerFile e Docker-Compose foram criados, as seguintes etapas são executadas para subir o ambiente Postgresql e Metabase
 
-## 1- Construindo a imagem Web_Apache
-> docker build -t web_apache .
+## 1- Realizar os downloads:
+```
+- Docker Desktop
+- imagem httpd 
+```
 
-## 2 -Listando imagens disponíveis
+## 2- Construir a imagem Web_Apache
+```shell
+docker build -t web_apache .
+```
+
+## 3 -Listar imagens disponíveis
+```shell
 docker image ls
+```
 
-## 3 -Executar um container 
-> docker run -d -p 80:80 web_apache
+## 4 -Executar um container 
+```shell
+docker run -d -p 80:80 web_apache
+```
 
-## 4- Exibir containers ativos
+## 5- Exibir containers ativos
+```shell
 docker ps
+```
 
-## 5 -Parar um container
+## 6 -Parar um container
+
+```shell
 docker stop <container_id>
+```
 
-## 6- Subir um banco de dados com o compose
-> docker-compose up <service_name> (Sobe todos os serviços se não for espeficado)
+## 7- Subir um banco de dados com o compose
+```shell
+> docker-compose up <service_name> # (Sobe todos os serviços se não for espeficado)
+```
 
 Com os ambientes rodando, já é possível utilizar o script main.py, responsável por obter 3 diferentes arquivos CSV de um endereço online e persisti-los no banco de dados no formato de tabelas.
 
 Os acessos para o banco de dados são configurados no arquivo docker-compose e são os seguintes:
 
 ### Host:
+```
 0.0.0.0 ou localhost
+```
+
 ### Porta:
+```
 5432
+```
+
 ### Database:
+```
 test_db
+```
+
 ### User:
+```
 root
+```
 ### Password:
+```
 root
+```
 
 Com as tabelas criadas, uma série de perguntas e queries personalizadas para os dados obtidos já estarão disponíveis no metabase, acessado através do localhost::3000
 
 Os dados de acesso são os seguintes:
 
 ### Login:
+```
 admin@provider.com
+```
 
 ### Senha:
+```
 root
+```
 
 No final, os dados coletados e analisados estarão disponíveis em
+```
 http://localhost:3000/dashboard/1-resultados-internacionais-de-futebol-desde-1872?text=Brazil
+```
