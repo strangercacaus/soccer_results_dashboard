@@ -44051,7 +44051,7 @@
 44049,2022-08-31,Mexico,Paraguay,0,1,Friendly,Atlanta,United States,True
 44050,2022-09-17,Fiji,New Caledonia,1,0,MSG Prime Minister's Cup,Luganville,Vanuatu,True
 44051,2022-09-21,Solomon Islands,New Caledonia,1,0,MSG Prime Minister's Cup,Luganville,Vanuatu,True
-44052,2022-09-21,Brunei Darussalam,Maldives,0,3,Friendly,Bandar Seri Begawan,Brunei,True
+44052,2022-09-21,Brunei,Maldives,0,3,Friendly,Bandar Seri Begawan,Brunei,True
 44053,2022-09-21,Hong Kong,Myanmar,2,0,Friendly,Hong Kong,Hong Kong,False
 44054,2022-09-21,Libya,Uganda,0,0,Friendly,Benghazi,Libya,False
 44055,2022-09-21,San Marino,Seychelles,0,0,Friendly,Serravalle,San Marino,False
@@ -44152,7 +44152,7 @@
 44150,2022-09-27,Argentina,Jamaica,3,0,Friendly,Harrison,United States,True
 44151,2022-09-27,Bahrain,Panama,0,2,Friendly,Riffa,Bahrain,False
 44152,2022-09-27,Brazil,Tunisia,5,1,Friendly,Paris,France,True
-44153,2022-09-27,Brunei Darussalam,Laos,1,0,Friendly,Bandar Seri Begawan,Brunei,True
+44153,2022-09-27,Brunei,Laos,1,0,Friendly,Bandar Seri Begawan,Brunei,True
 44154,2022-09-27,Burkina Faso,Comoros,2,1,Friendly,Casablanca,Morocco,True
 44155,2022-09-27,Canada,Uruguay,0,2,Friendly,Bratislava,Slovakia,True
 44156,2022-09-27,DR Congo,Sierra Leone,3,0,Friendly,Casablanca,Morocco,True
@@ -44361,4 +44361,575 @@
 44359,2022-12-23,Oman,Syria,2,1,Friendly,Dubai,United Arab Emirates,True
 44360,2022-12-30,Iraq,Kuwait,1,0,Friendly,Basra,Iraq,False
 44361,2022-12-30,Oman,Syria,1,0,Friendly,Dubai,United Arab Emirates,True
-44362,2022-12-30,United Arab Emirates,Lebanon,1,0,Friendly,Abu Dhabi,United Arab Emirates,True
+44362,2022-12-30,United Arab Emirates,Lebanon,1,0,Friendly,Abu Dhabi,United Arab Emirates,False
+44363,2023-01-06,Iraq,Oman,0,0,Gulf Cup,Basra,Iraq,False
+44364,2023-01-06,Yemen,Saudi Arabia,0,2,Gulf Cup,Basra,Iraq,True
+44365,2023-01-07,Bahrain,United Arab Emirates,2,1,Gulf Cup,Basra,Iraq,True
+44366,2023-01-07,Kuwait,Qatar,0,2,Gulf Cup,Basra,Iraq,True
+44367,2023-01-08,Iceland,Estonia,1,1,Friendly,Albufeira,Portugal,True
+44368,2023-01-09,Sweden,Finland,2,0,Friendly,Faro-Loulé,Portugal,True
+44369,2023-01-09,Oman,Yemen,3,2,Gulf Cup,Basra,Iraq,True
+44370,2023-01-09,Iraq,Saudi Arabia,2,0,Gulf Cup,Basra,Iraq,False
+44371,2023-01-10,United Arab Emirates,Kuwait,0,1,Gulf Cup,Basra,Iraq,True
+44372,2023-01-10,Qatar,Bahrain,1,2,Gulf Cup,Basra,Iraq,True
+44373,2023-01-12,Finland,Estonia,0,1,Friendly,Albufeira,Portugal,True
+44374,2023-01-12,Sweden,Iceland,2,1,Friendly,Faro-Loulé,Portugal,True
+44375,2023-01-12,Iraq,Yemen,5,0,Gulf Cup,Basra,Iraq,False
+44376,2023-01-12,Saudi Arabia,Oman,1,2,Gulf Cup,Basra,Iraq,True
+44377,2023-01-13,Bahrain,Kuwait,1,1,Gulf Cup,Basra,Iraq,True
+44378,2023-01-13,Qatar,United Arab Emirates,1,1,Gulf Cup,Basra,Iraq,True
+44379,2023-01-16,Iraq,Qatar,2,1,Gulf Cup,Basra,Iraq,False
+44380,2023-01-16,Bahrain,Oman,0,1,Gulf Cup,Basra,Iraq,True
+44381,2023-01-19,Iraq,Oman,3,2,Gulf Cup,Basra,Iraq,False
+44382,2023-01-25,United States,Serbia,1,2,Friendly,Los Angeles,United States,False
+44383,2023-01-28,United States,Colombia,0,0,Friendly,Carson,United States,False
+44384,2023-02-22,Grenada,Barbados,1,1,Friendly,Sauteurs,Grenada,False
+44385,2023-02-26,Grenada,Barbados,2,2,Friendly,St. George's,Grenada,False
+44386,2023-03-03,Grenada,Saint Lucia,1,2,Friendly,St. George's,Grenada,False
+44387,2023-03-05,Grenada,Saint Lucia,2,0,Friendly,Gouyave,Grenada,False
+44388,2023-03-11,Jamaica,Trinidad and Tobago,0,1,Friendly,Montego Bay,Jamaica,False
+44389,2023-03-12,Guatemala,Panama,1,1,Friendly,San Jose,United States,True
+44390,2023-03-14,Jamaica,Trinidad and Tobago,0,0,Friendly,Kingston,Jamaica,False
+44391,2023-03-15,Bangladesh,Malawi,1,1,Friendly,Medina,Saudi Arabia,True
+44392,2023-03-19,Ethiopia,Rwanda,1,0,Friendly,Adama,Ethiopia,False
+44393,2023-03-20,Fiji,Vanuatu,1,2,Friendly,Lautoka,Fiji,False
+44394,2023-03-21,Maldives,Pakistan,1,0,Friendly,Laamu,Maldives,False
+44395,2023-03-21,Tahiti,New Caledonia,0,2,Friendly,Pirae,Tahiti,False
+44396,2023-03-22,Honduras,El Salvador,1,0,Friendly,Los Angeles,United States,True
+44397,2023-03-22,India,Myanmar,1,0,Tri Nation Tournament,Imphal,India,False
+44398,2023-03-22,Nepal,Laos,2,0,Tri Nation Tournament,Kathmandu,Nepal,False
+44399,2023-03-22,Republic of Ireland,Latvia,3,2,Friendly,Dublin,Republic of Ireland,False
+44400,2023-03-22,Sierra Leone,São Tomé and Príncipe,2,2,African Cup of Nations qualification,Agadir,Morocco,True
+44401,2023-03-22,Benin,Rwanda,1,1,African Cup of Nations qualification,Cotonou,Benin,False
+44402,2023-03-23,Argentina,Panama,2,0,Friendly,Buenos Aires,Argentina,False
+44403,2023-03-23,Hong Kong,Singapore,1,1,Friendly,Hong Kong,Hong Kong,False
+44404,2023-03-23,Hungary,Estonia,1,0,Friendly,Budapest,Hungary,False
+44405,2023-03-23,Iran,Russia,1,1,Friendly,Tehran,Iran,False
+44406,2023-03-23,Malaysia,Turkmenistan,1,0,Friendly,Johor Bahru,Malaysia,False
+44407,2023-03-23,New Zealand,China PR,0,0,Friendly,Auckland,New Zealand,False
+44408,2023-03-23,Solomon Islands,Vanuatu,2,0,Friendly,Lautoka,Fiji,True
+44409,2023-03-23,Madagascar,Central African Republic,0,3,African Cup of Nations qualification,Antananarivo,Madagascar,False
+44410,2023-03-23,Ghana,Angola,1,0,African Cup of Nations qualification,Kumasi,Ghana,False
+44411,2023-03-23,Algeria,Niger,2,1,African Cup of Nations qualification,Algiers,Algeria,False
+44412,2023-03-23,Congo,South Sudan,1,2,African Cup of Nations qualification,Brazzaville,Congo,False
+44413,2023-03-23,Zambia,Lesotho,3,1,African Cup of Nations qualification,Ndola,Zambia,False
+44414,2023-03-23,Gabon,Sudan,1,0,African Cup of Nations qualification,Franceville,Gabon,False
+44415,2023-03-23,Italy,England,1,2,UEFA Euro qualification,Napoli,Italy,False
+44416,2023-03-23,North Macedonia,Malta,2,1,UEFA Euro qualification,Skopje,North Macedonia,False
+44417,2023-03-23,Denmark,Finland,3,1,UEFA Euro qualification,Copenhagen,Denmark,False
+44418,2023-03-23,San Marino,Northern Ireland,0,2,UEFA Euro qualification,Serravalle,San Marino,False
+44419,2023-03-23,Kazakhstan,Slovenia,1,2,UEFA Euro qualification,Astana,Kazakhstan,False
+44420,2023-03-23,Portugal,Liechtenstein,4,0,UEFA Euro qualification,Lisbon,Portugal,False
+44421,2023-03-23,Bosnia and Herzegovina,Iceland,3,0,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False
+44422,2023-03-23,Slovakia,Luxembourg,0,0,UEFA Euro qualification,Trnava,Slovakia,False
+44423,2023-03-23,Suriname,Mexico,0,2,CONCACAF Nations League,Paramaribo,Suriname,False
+44424,2023-03-23,Barbados,Cuba,0,1,CONCACAF Nations League,Bridgetown,Barbados,False
+44425,2023-03-23,Guadeloupe,Antigua and Barbuda,0,1,CONCACAF Nations League,Les Abymes,Guadeloupe,False
+44426,2023-03-23,French Guiana,Dominican Republic,1,1,CONCACAF Nations League,Cayenne,French Guiana,False
+44427,2023-03-23,Saint Martin,Saint Kitts and Nevis,1,3,CONCACAF Nations League,The Valley,Anguilla,True
+44428,2023-03-23,British Virgin Islands,Puerto Rico,1,3,CONCACAF Nations League,Road Town,British Virgin Islands,False
+44429,2023-03-24,Australia,Ecuador,3,1,Friendly,Sydney,Australia,False
+44430,2023-03-24,Japan,Uruguay,1,1,Friendly,Tokyo,Japan,False
+44431,2023-03-24,South Korea,Colombia,2,2,Friendly,Ulsan,South Korea,False
+44432,2023-03-24,Kuwait,Philippines,2,0,Friendly,Kuwait City,Kuwait,False
+44433,2023-03-24,Saudi Arabia,Venezuela,1,2,Friendly,Jeddah,Saudi Arabia,False
+44434,2023-03-24,Tahiti,New Caledonia,2,1,Friendly,Pirae,Tahiti,False
+44435,2023-03-24,Uzbekistan,Bolivia,1,0,Friendly,Jeddah,Saudi Arabia,True
+44436,2023-03-24,Nigeria,Guinea-Bissau,0,1,African Cup of Nations qualification,Abuja,Nigeria,False
+44437,2023-03-24,Cape Verde,Eswatini,0,0,African Cup of Nations qualification,Praia,Cape Verde,False
+44438,2023-03-24,Burkina Faso,Togo,1,0,African Cup of Nations qualification,Marrakech,Morocco,True
+44439,2023-03-24,Cameroon,Namibia,1,1,African Cup of Nations qualification,Yaoundé,Cameroon,False
+44440,2023-03-24,Guinea,Ethiopia,2,0,African Cup of Nations qualification,Casablanca,Morocco,True
+44441,2023-03-24,Egypt,Malawi,2,0,African Cup of Nations qualification,Cairo,Egypt,False
+44442,2023-03-24,Uganda,Tanzania,0,1,African Cup of Nations qualification,Ismailia,Egypt,True
+44443,2023-03-24,Mali,Gambia,2,0,African Cup of Nations qualification,Bamako,Mali,False
+44444,2023-03-24,Ivory Coast,Comoros,3,1,African Cup of Nations qualification,Bouaké,Ivory Coast,False
+44445,2023-03-24,DR Congo,Mauritania,3,1,African Cup of Nations qualification,Douala,Cameroon,True
+44446,2023-03-24,Equatorial Guinea,Botswana,2,0,African Cup of Nations qualification,Malabo,Equatorial Guinea,False
+44447,2023-03-24,Tunisia,Libya,3,0,African Cup of Nations qualification,Radès,Tunisia,False
+44448,2023-03-24,South Africa,Liberia,2,2,African Cup of Nations qualification,Johannesburg,South Africa,False
+44449,2023-03-24,Senegal,Mozambique,5,1,African Cup of Nations qualification,Diamniadio,Senegal,False
+44450,2023-03-24,Gibraltar,Greece,0,3,UEFA Euro qualification,Faro-Loulé,Portugal,True
+44451,2023-03-24,France,Netherlands,4,0,UEFA Euro qualification,Paris,France,False
+44452,2023-03-24,Czech Republic,Poland,3,1,UEFA Euro qualification,Prague,Czech Republic,False
+44453,2023-03-24,Moldova,Faroe Islands,1,1,UEFA Euro qualification,Chișinău,Moldova,False
+44454,2023-03-24,Austria,Azerbaijan,4,1,UEFA Euro qualification,Pasching,Austria,False
+44455,2023-03-24,Sweden,Belgium,0,3,UEFA Euro qualification,Stockholm,Sweden,False
+44456,2023-03-24,Bulgaria,Montenegro,0,1,UEFA Euro qualification,Razgrad,Bulgaria,False
+44457,2023-03-24,Serbia,Lithuania,2,0,UEFA Euro qualification,Belgrade,Serbia,False
+44458,2023-03-24,Grenada,United States,1,7,CONCACAF Nations League,St. George's,Grenada,False
+44459,2023-03-24,Bahamas,Trinidad and Tobago,0,3,CONCACAF Nations League,Nassau,Bahamas,False
+44460,2023-03-24,Nicaragua,Saint Vincent and the Grenadines,4,1,CONCACAF Nations League,Managua,Nicaragua,False
+44461,2023-03-24,Belize,Guatemala,1,2,CONCACAF Nations League,Belmopan,Belize,False
+44462,2023-03-24,Anguilla,Saint Lucia,1,2,CONCACAF Nations League,The Valley,Anguilla,False
+44463,2023-03-25,Bahrain,Palestine,1,2,Friendly,Arad,Bahrain,False
+44464,2023-03-25,Bangladesh,Seychelles,1,0,Friendly,Sylhet,Bangladesh,False
+44465,2023-03-25,Bhutan,Laos,1,2,Tri Nation Tournament,Kathmandu,Nepal,True
+44466,2023-03-25,Georgia,Mongolia,6,1,Friendly,Batumi,Georgia,False
+44467,2023-03-25,Germany,Peru,2,0,Friendly,Mainz,Germany,False
+44468,2023-03-25,Indonesia,Burundi,3,1,Friendly,Bekasi,Indonesia,False
+44469,2023-03-25,Morocco,Brazil,2,1,Friendly,Tangier,Morocco,False
+44470,2023-03-25,Myanmar,Kyrgyzstan,1,1,Tri Nation Tournament,Imphal,India,True
+44471,2023-03-25,Thailand,Syria,1,3,Friendly,Dubai,United Arab Emirates,True
+44472,2023-03-25,United Arab Emirates,Tajikistan,0,0,Friendly,Abu Dhabi,United Arab Emirates,False
+44473,2023-03-25,Scotland,Cyprus,3,0,UEFA Euro qualification,Glasgow,Scotland,False
+44474,2023-03-25,Spain,Norway,3,0,UEFA Euro qualification,Malaga,Spain,False
+44475,2023-03-25,Croatia,Wales,1,1,UEFA Euro qualification,Split,Croatia,False
+44476,2023-03-25,Armenia,Turkey,1,2,UEFA Euro qualification,Yerevan,Armenia,False
+44477,2023-03-25,Belarus,Switzerland,0,5,UEFA Euro qualification,Novi Sad,Serbia,True
+44478,2023-03-25,Israel,Kosovo,1,1,UEFA Euro qualification,Tel Aviv,Israel,False
+44479,2023-03-25,Andorra,Romania,0,2,UEFA Euro qualification,Andorra la Vella,Andorra,False
+44480,2023-03-25,Martinique,Costa Rica,1,2,CONCACAF Nations League,Fort de France,Martinique,False
+44481,2023-03-25,Curaçao,Canada,0,2,CONCACAF Nations League,Willemstad,Curaçao,False
+44482,2023-03-25,Bermuda,Guyana,0,2,CONCACAF Nations League,Devonshire Parish,Bermuda,False
+44483,2023-03-25,Montserrat,Haiti,0,4,CONCACAF Nations League,Look Out,Montserrat,False
+44484,2023-03-25,Sint Maarten,Bonaire,6,1,CONCACAF Nations League,Saint Croix,United States Virgin Islands,True
+44485,2023-03-25,Turks and Caicos Islands,United States Virgin Islands,1,0,CONCACAF Nations League,Providenciales,Turks and Caicos Islands,False
+44486,2023-03-26,Fiji,Solomon Islands,0,2,Friendly,Lautoka,Fiji,False
+44487,2023-03-26,Macau,Singapore,0,1,Friendly,Taipa,Macau,False
+44488,2023-03-26,New Zealand,China PR,2,1,Friendly,Wellington,New Zealand,False
+44489,2023-03-26,Russia,Iraq,2,0,Friendly,Saint Petersburg,Russia,False
+44490,2023-03-26,São Tomé and Príncipe,Sierra Leone,0,2,African Cup of Nations qualification,Agadir,Morocco,True
+44491,2023-03-26,Lesotho,Zambia,0,2,African Cup of Nations qualification,Soweto,South Africa,True
+44492,2023-03-26,England,Ukraine,2,0,UEFA Euro qualification,London,England,False
+44493,2023-03-26,Malta,Italy,0,2,UEFA Euro qualification,Ta' Qali,Malta,False
+44494,2023-03-26,Slovenia,San Marino,2,0,UEFA Euro qualification,Ljubljana,Slovenia,False
+44495,2023-03-26,Kazakhstan,Denmark,3,2,UEFA Euro qualification,Astana,Kazakhstan,False
+44496,2023-03-26,Northern Ireland,Finland,0,1,UEFA Euro qualification,Belfast,Northern Ireland,False
+44497,2023-03-26,Liechtenstein,Iceland,0,7,UEFA Euro qualification,Vaduz,Liechtenstein,False
+44498,2023-03-26,Luxembourg,Portugal,0,6,UEFA Euro qualification,Luxembourg,Luxembourg,False
+44499,2023-03-26,Slovakia,Bosnia and Herzegovina,2,0,UEFA Euro qualification,Bratislava,Slovakia,False
+44500,2023-03-26,Mexico,Jamaica,2,2,CONCACAF Nations League,Mexico City,Mexico,False
+44501,2023-03-26,Antigua and Barbuda,Barbados,1,2,CONCACAF Nations League,North Sound,Antigua and Barbuda,False
+44502,2023-03-26,Cuba,Guadeloupe,1,0,CONCACAF Nations League,Santiago,Cuba,False
+44503,2023-03-26,Puerto Rico,Cayman Islands,5,1,CONCACAF Nations League,Bayamón,Puerto Rico,False
+44504,2023-03-27,Chile,Paraguay,3,2,Friendly,Santiago,Chile,False
+44505,2023-03-27,Greece,Lithuania,0,0,Friendly,Athens,Greece,False
+44506,2023-03-27,North Macedonia,Faroe Islands,1,0,Friendly,Skopje,North Macedonia,False
+44507,2023-03-27,Oman,Lebanon,2,0,Friendly,Muscat,Oman,False
+44508,2023-03-27,Guinea-Bissau,Nigeria,0,1,African Cup of Nations qualification,Bissau,Guinea-Bissau,False
+44509,2023-03-27,Ethiopia,Guinea,2,3,African Cup of Nations qualification,Rabat,Morocco,True
+44510,2023-03-27,Central African Republic,Madagascar,2,0,African Cup of Nations qualification,Douala,Cameroon,True
+44511,2023-03-27,Angola,Ghana,1,1,African Cup of Nations qualification,Luanda,Angola,False
+44512,2023-03-27,Niger,Algeria,0,1,African Cup of Nations qualification,Radès,Tunisia,True
+44513,2023-03-27,South Sudan,Congo,0,1,African Cup of Nations qualification,Dar es Salaam,Tanzania,True
+44514,2023-03-27,Sudan,Gabon,1,0,African Cup of Nations qualification,Omdurman,Sudan,False
+44515,2023-03-27,Republic of Ireland,France,0,1,UEFA Euro qualification,Dublin,Republic of Ireland,False
+44516,2023-03-27,Netherlands,Gibraltar,3,0,UEFA Euro qualification,Rotterdam,Netherlands,False
+44517,2023-03-27,Poland,Albania,1,0,UEFA Euro qualification,Warsaw,Poland,False
+44518,2023-03-27,Moldova,Czech Republic,0,0,UEFA Euro qualification,Chișinău,Moldova,False
+44519,2023-03-27,Austria,Estonia,2,1,UEFA Euro qualification,Pasching,Austria,False
+44520,2023-03-27,Sweden,Azerbaijan,5,0,UEFA Euro qualification,Stockholm,Sweden,False
+44521,2023-03-27,Hungary,Bulgaria,3,0,UEFA Euro qualification,Budapest,Hungary,False
+44522,2023-03-27,Montenegro,Serbia,0,2,UEFA Euro qualification,Podgorica,Montenegro,False
+44523,2023-03-27,United States,El Salvador,1,0,CONCACAF Nations League,Orlando,United States,False
+44524,2023-03-27,Saint Vincent and the Grenadines,Bahamas,1,1,CONCACAF Nations League,Kingstown,Saint Vincent and the Grenadines,False
+44525,2023-03-27,Trinidad and Tobago,Nicaragua,1,1,CONCACAF Nations League,Bacolet,Trinidad and Tobago,False
+44526,2023-03-27,Dominican Republic,Belize,2,0,CONCACAF Nations League,Santo Domingo,Dominican Republic,False
+44527,2023-03-27,Guatemala,French Guiana,4,0,CONCACAF Nations League,Guatemala City,Guatemala,False
+44528,2023-03-27,Saint Kitts and Nevis,Aruba,2,0,CONCACAF Nations League,Basseterre,Saint Kitts and Nevis,False
+44529,2023-03-27,Saint Lucia,Dominica,3,1,CONCACAF Nations League,Gros Islet,Saint Lucia,False
+44530,2023-03-28,Argentina,Curaçao,7,0,Friendly,Santiago del Estero,Argentina,False
+44531,2023-03-28,Armenia,Cyprus,2,2,Friendly,Yerevan,Armenia,False
+44532,2023-03-28,Australia,Ecuador,1,2,Friendly,Melbourne,Australia,False
+44533,2023-03-28,Bahrain,Syria,1,0,Friendly,Arad,Bahrain,False
+44534,2023-03-28,Bangladesh,Seychelles,0,1,Friendly,Sylhet,Bangladesh,False
+44535,2023-03-28,Germany,Belgium,2,3,Friendly,Cologne,Germany,False
+44536,2023-03-28,India,Kyrgyzstan,2,0,Tri Nation Tournament,Imphal,India,False
+44537,2023-03-28,Indonesia,Burundi,2,2,Friendly,Bekasi,Indonesia,False
+44538,2023-03-28,Iran,Kenya,2,1,Friendly,Tehran,Iran,False
+44539,2023-03-28,Japan,Colombia,1,2,Friendly,Osaka,Japan,False
+44540,2023-03-28,Jordan,Philippines,4,0,Friendly,Al Wakrah,Qatar,True
+44541,2023-03-28,South Korea,Uruguay,1,2,Friendly,Seoul,South Korea,False
+44542,2023-03-28,Kuwait,Tajikistan,2,1,Friendly,Kuwait City,Kuwait,False
+44543,2023-03-28,Malaysia,Hong Kong,2,0,Friendly,Johor Bahru,Malaysia,False
+44544,2023-03-28,Morocco,Peru,0,0,Friendly,Madrid,Spain,True
+44545,2023-03-28,Nepal,Bhutan,1,1,Tri Nation Tournament,Kathmandu,Nepal,False
+44546,2023-03-28,Saudi Arabia,Bolivia,1,2,Friendly,Jeddah,Saudi Arabia,False
+44547,2023-03-28,United Arab Emirates,Thailand,2,0,Friendly,Abu Dhabi,United Arab Emirates,False
+44548,2023-03-28,Uzbekistan,Venezuela,1,1,Friendly,Jeddah,Saudi Arabia,True
+44549,2023-03-28,Eswatini,Cape Verde,0,1,African Cup of Nations qualification,Mbombela,South Africa,True
+44550,2023-03-28,Togo,Burkina Faso,1,1,African Cup of Nations qualification,Lomé,Togo,False
+44551,2023-03-28,Namibia,Cameroon,2,1,African Cup of Nations qualification,Soweto,South Africa,True
+44552,2023-03-28,Malawi,Egypt,0,4,African Cup of Nations qualification,Lilongwe,Malawi,False
+44553,2023-03-28,Tanzania,Uganda,0,1,African Cup of Nations qualification,Dar es Salaam,Tanzania,False
+44554,2023-03-28,Gambia,Mali,1,0,African Cup of Nations qualification,Casablanca,Morocco,True
+44555,2023-03-28,Comoros,Ivory Coast,0,2,African Cup of Nations qualification,Moroni,Comoros,False
+44556,2023-03-28,Mauritania,DR Congo,1,1,African Cup of Nations qualification,Nouakchott,Mauritania,False
+44557,2023-03-28,Botswana,Equatorial Guinea,2,3,African Cup of Nations qualification,Francistown,Botswana,False
+44558,2023-03-28,Libya,Tunisia,0,1,African Cup of Nations qualification,Benghazi,Libya,False
+44559,2023-03-28,Liberia,South Africa,1,2,African Cup of Nations qualification,Monrovia,Liberia,False
+44560,2023-03-28,Mozambique,Senegal,0,1,African Cup of Nations qualification,Maputo,Mozambique,False
+44561,2023-03-28,Scotland,Spain,2,0,UEFA Euro qualification,Glasgow,Scotland,False
+44562,2023-03-28,Georgia,Norway,1,1,UEFA Euro qualification,Batumi,Georgia,False
+44563,2023-03-28,Wales,Latvia,1,0,UEFA Euro qualification,Cardiff,Wales,False
+44564,2023-03-28,Turkey,Croatia,0,2,UEFA Euro qualification,Bursa,Turkey,False
+44565,2023-03-28,Kosovo,Andorra,1,1,UEFA Euro qualification,Pristina,Kosovo,False
+44566,2023-03-28,Switzerland,Israel,3,0,UEFA Euro qualification,Geneva,Switzerland,False
+44567,2023-03-28,Romania,Belarus,2,1,UEFA Euro qualification,Bucharest,Romania,False
+44568,2023-03-28,Costa Rica,Panama,0,1,CONCACAF Nations League,San José,Costa Rica,False
+44569,2023-03-28,Canada,Honduras,4,1,CONCACAF Nations League,Toronto,Canada,False
+44570,2023-03-28,Haiti,Bermuda,3,1,CONCACAF Nations League,San Cristóbal,Dominican Republic,True
+44571,2023-03-28,Guyana,Montserrat,0,0,CONCACAF Nations League,Bridgetown,Barbados,True
+44572,2023-03-28,Bonaire,Turks and Caicos Islands,1,2,CONCACAF Nations League,Rincon,Bonaire,False
+44573,2023-03-28,United States Virgin Islands,Sint Maarten,1,2,CONCACAF Nations League,Saint Croix,United States Virgin Islands,False
+44574,2023-03-29,Rwanda,Benin,1,1,African Cup of Nations qualification,Kigali,Rwanda,False
+44575,2023-03-31,Nepal,Laos,2,1,Tri Nation Tournament,Kathmandu,Nepal,False
+44576,2023-04-19,United States,Mexico,1,1,Friendly,Glendale,United States,False
+44577,2023-06-07,Mexico,Guatemala,2,0,Friendly,Mazatlán,Mexico,False
+44578,2023-06-09,Luxembourg,Malta,0,1,Friendly,Luxembourg,Luxembourg,False
+44579,2023-06-10,Mexico,Cameroon,2,2,Friendly,San Diego,United States,True
+44580,2023-06-10,Panama,Nicaragua,3,2,Friendly,Penonomé,Panama,False
+44581,2023-06-11,Chile,Cuba,3,0,Friendly,Concepción,Chile,False
+44582,2023-06-11,Guatemala,Trinidad and Tobago,0,1,Friendly,Chester,United States,True
+44583,2023-06-11,Tajikistan,Turkmenistan,1,1,CAFA Nations Cup,Tashkent,Uzbekistan,True
+44584,2023-06-11,Uzbekistan,Oman,3,0,CAFA Nations Cup,Tashkent,Uzbekistan,False
+44585,2023-06-11,Mauritius,Pakistan,3,0,Mauritius Four Nations Cup,Saint Pierre,Mauritius,False
+44586,2023-06-12,Germany,Ukraine,3,3,Friendly,Bremen,Germany,False
+44587,2023-06-12,Morocco,Cape Verde,0,0,Friendly,Rabat,Morocco,False
+44588,2023-06-13,Iran,Afghanistan,6,1,CAFA Nations Cup,Bishkek,Kyrgyzstan,True
+44589,2023-06-13,Curaçao,Costa Rica,0,0,Friendly,Fort Lauderdale,United States,True
+44590,2023-06-14,DR Congo,Uganda,1,0,Friendly,Douala,Cameroon,True
+44591,2023-06-14,Indonesia,Palestine,0,0,Friendly,Surabaya,Indonesia,False
+44592,2023-06-14,Malaysia,Solomon Islands,4,1,Friendly,Terengganu,Malaysia,False
+44593,2023-06-14,Mozambique,Malawi,1,1,Friendly,Maputo,Mozambique,False
+44594,2023-06-14,Togo,Lesotho,2,0,Friendly,Johannesburg,South Africa,True
+44595,2023-06-14,Uruguay,Nicaragua,4,1,Friendly,Montevideo,Uruguay,False
+44596,2023-06-14,Netherlands,Croatia,2,4,UEFA Nations League,Rotterdam,Netherlands,False
+44597,2023-06-14,Oman,Tajikistan,1,1,CAFA Nations Cup,Tashkent,Uzbekistan,True
+44598,2023-06-14,Uzbekistan,Turkmenistan,2,0,CAFA Nations Cup,Tashkent,Uzbekistan,False
+44599,2023-06-14,Pakistan,Kenya,0,1,Mauritius Four Nations Cup,Saint Pierre,Mauritius,True
+44600,2023-06-14,Mauritius,Djibouti,1,3,Mauritius Four Nations Cup,Saint Pierre,Mauritius,False
+44601,2023-06-15,Panama,Canada,0,2,CONCACAF Nations League,Las Vegas,United States,True
+44602,2023-06-15,United States,Mexico,3,0,CONCACAF Nations League,Las Vegas,United States,False
+44603,2023-06-15,Argentina,Australia,2,0,Friendly,Beijing,China PR,True
+44604,2023-06-15,Cambodia,Bangladesh,0,1,Friendly,Phnom Penh,Cambodia,False
+44605,2023-06-15,Costa Rica,Guatemala,0,1,Friendly,Carson,United States,True
+44606,2023-06-15,Honduras,Venezuela,0,1,Friendly,Washington,United States,True
+44607,2023-06-15,Jamaica,Qatar,1,2,Friendly,Ritzing,Austria,True
+44608,2023-06-15,Japan,El Salvador,6,0,Friendly,Toyota,Japan,False
+44609,2023-06-15,Philippines,Nepal,1,0,Friendly,Manila,Philippines,False
+44610,2023-06-15,Vietnam,Hong Kong,1,0,Friendly,Hai Phong,Vietnam,False
+44611,2023-06-15,Spain,Italy,2,1,UEFA Nations League,Enschede,Netherlands,True
+44612,2023-06-16,Antigua and Barbuda,Guadeloupe,0,5,Gold Cup qualification,Fort Lauderdale,United States,True
+44613,2023-06-16,Martinique,Saint Lucia,3,1,Gold Cup qualification,Fort Lauderdale,United States,True
+44614,2023-06-16,Curaçao,Saint Kitts and Nevis,1,1,Gold Cup qualification,Fort Lauderdale,United States,True
+44615,2023-06-16,Chile,Dominican Republic,5,0,Friendly,Viña del Mar,Chile,False
+44616,2023-06-16,China PR,Myanmar,4,0,Friendly,Dalian,China PR,False
+44617,2023-06-16,Taiwan,Thailand,2,2,Friendly,Kaohsiung,Taiwan,False
+44618,2023-06-16,Colombia,Iraq,1,0,Friendly,Valencia,Spain,True
+44619,2023-06-16,South Korea,Peru,0,1,Friendly,Busan,South Korea,False
+44620,2023-06-16,Poland,Germany,1,0,Friendly,Warsaw,Poland,False
+44621,2023-06-16,Serbia,Jordan,3,2,Friendly,Vienna,Austria,True
+44622,2023-06-16,Singapore,Papua New Guinea,2,2,Friendly,Kallang,Singapore,False
+44623,2023-06-16,Sweden,New Zealand,4,1,Friendly,Stockholm,Sweden,False
+44624,2023-06-16,Gibraltar,France,0,3,UEFA Euro qualification,Faro-Loulé,Portugal,True
+44625,2023-06-16,Greece,Republic of Ireland,2,1,UEFA Euro qualification,Athens,Greece,False
+44626,2023-06-16,Malta,England,0,4,UEFA Euro qualification,Ta' Qali,Malta,False
+44627,2023-06-16,North Macedonia,Ukraine,2,3,UEFA Euro qualification,Skopje,North Macedonia,False
+44628,2023-06-16,Wales,Armenia,2,4,UEFA Euro qualification,Cardiff,Wales,False
+44629,2023-06-16,Latvia,Turkey,2,3,UEFA Euro qualification,Riga,Latvia,False
+44630,2023-06-16,Finland,Slovenia,2,0,UEFA Euro qualification,Helsinki,Finland,False
+44631,2023-06-16,Denmark,Northern Ireland,1,0,UEFA Euro qualification,Copenhagen,Denmark,False
+44632,2023-06-16,San Marino,Kazakhstan,0,3,UEFA Euro qualification,Parma,Italy,True
+44633,2023-06-16,Andorra,Switzerland,1,2,UEFA Euro qualification,Andorra la Vella,Andorra,False
+44634,2023-06-16,Belarus,Israel,1,2,UEFA Euro qualification,Budapest,Hungary,True
+44635,2023-06-16,Kosovo,Romania,0,0,UEFA Euro qualification,Pristina,Kosovo,False
+44636,2023-06-16,Kyrgyzstan,Iran,1,5,CAFA Nations Cup,Bishkek,Kyrgyzstan,False
+44637,2023-06-17,Guyana,Grenada,1,1,Gold Cup qualification,Fort Lauderdale,United States,True
+44638,2023-06-17,Suriname,Puerto Rico,0,0,Gold Cup qualification,Fort Lauderdale,United States,True
+44639,2023-06-17,French Guiana,Sint Maarten,4,1,Gold Cup qualification,Fort Lauderdale,United States,True
+44640,2023-06-17,Brazil,Guinea,4,1,Friendly,Barcelona,Spain,True
+44641,2023-06-17,Ecuador,Bolivia,1,0,Friendly,Harrison,United States,True
+44642,2023-06-17,Norway,Scotland,1,2,UEFA Euro qualification,Oslo,Norway,False
+44643,2023-06-17,Cyprus,Georgia,1,2,UEFA Euro qualification,Larnaca,Cyprus,False
+44644,2023-06-17,Faroe Islands,Czech Republic,0,3,UEFA Euro qualification,Tórshavn,Faroe Islands,False
+44645,2023-06-17,Albania,Moldova,2,0,UEFA Euro qualification,Tirana,Albania,False
+44646,2023-06-17,Azerbaijan,Estonia,1,1,UEFA Euro qualification,Baku,Azerbaijan,False
+44647,2023-06-17,Belgium,Austria,1,1,UEFA Euro qualification,Brussels,Belgium,False
+44648,2023-06-17,Lithuania,Bulgaria,1,1,UEFA Euro qualification,Kaunas,Lithuania,False
+44649,2023-06-17,Montenegro,Hungary,0,0,UEFA Euro qualification,Podgorica,Montenegro,False
+44650,2023-06-17,Luxembourg,Liechtenstein,2,0,UEFA Euro qualification,Luxembourg,Luxembourg,False
+44651,2023-06-17,Iceland,Slovakia,1,2,UEFA Euro qualification,Reykjavík,Iceland,False
+44652,2023-06-17,Portugal,Bosnia and Herzegovina,3,0,UEFA Euro qualification,Lisbon,Portugal,False
+44653,2023-06-17,Ticino,Raetia,1,8,CONIFA World Football Cup qualification,Tenero-Contra,Switzerland,False
+44654,2023-06-17,Turkmenistan,Oman,0,2,CAFA Nations Cup,Tashkent,Uzbekistan,True
+44655,2023-06-17,Uzbekistan,Tajikistan,5,1,CAFA Nations Cup,Tashkent,Uzbekistan,False
+44656,2023-06-17,Djibouti,Pakistan,3,1,Mauritius Four Nations Cup,Saint Pierre,Mauritius,True
+44657,2023-06-18,Panama,Mexico,0,1,CONCACAF Nations League,Las Vegas,United States,True
+44658,2023-06-18,United States,Canada,2,0,CONCACAF Nations League,Las Vegas,United States,False
+44659,2023-06-18,Egypt,South Sudan,3,0,Friendly,Cairo,Egypt,False
+44660,2023-06-18,Guatemala,Venezuela,0,1,Friendly,East Hartford,United States,True
+44661,2023-06-18,Paraguay,Nicaragua,2,0,Friendly,Asunción,Paraguay,False
+44662,2023-06-18,Singapore,Solomon Islands,1,1,Friendly,Kallang,Singapore,False
+44663,2023-06-18,Netherlands,Italy,2,3,UEFA Nations League,Enschede,Netherlands,False
+44664,2023-06-18,Croatia,Spain,0,0,UEFA Nations League,Rotterdam,Netherlands,True
+44665,2023-06-18,Mauritius,Kenya,1,0,Mauritius Four Nations Cup,Saint Pierre,Mauritius,False
+44666,2023-06-19,Hong Kong,Thailand,0,1,Friendly,Hong Kong,Hong Kong,False
+44667,2023-06-19,Indonesia,Argentina,0,2,Friendly,Jakarta,Indonesia,False
+44668,2023-06-19,Jamaica,Jordan,1,2,Friendly,Wiener Neustadt,Austria,True
+44669,2023-06-19,Macau,Myanmar,0,2,Friendly,Dalian,China PR,True
+44670,2023-06-19,Philippines,Taiwan,2,3,Friendly,Manila,Philippines,False
+44671,2023-06-19,Republic of Ireland,Gibraltar,3,0,UEFA Euro qualification,Dublin,Republic of Ireland,False
+44672,2023-06-19,France,Greece,1,0,UEFA Euro qualification,Paris,France,False
+44673,2023-06-19,Ukraine,Malta,1,0,UEFA Euro qualification,Trnava,Slovakia,True
+44674,2023-06-19,England,North Macedonia,7,0,UEFA Euro qualification,Manchester,England,False
+44675,2023-06-19,Armenia,Latvia,2,1,UEFA Euro qualification,Yerevan,Armenia,False
+44676,2023-06-19,Turkey,Wales,2,0,UEFA Euro qualification,Samsun,Turkey,False
+44677,2023-06-19,Finland,San Marino,6,0,UEFA Euro qualification,Helsinki,Finland,False
+44678,2023-06-19,Northern Ireland,Kazakhstan,0,1,UEFA Euro qualification,Belfast,Northern Ireland,False
+44679,2023-06-19,Slovenia,Denmark,1,1,UEFA Euro qualification,Ljubljana,Slovenia,False
+44680,2023-06-19,Belarus,Kosovo,2,1,UEFA Euro qualification,Budapest,Hungary,True
+44681,2023-06-19,Switzerland,Romania,2,2,UEFA Euro qualification,Lucerne,Switzerland,False
+44682,2023-06-19,Israel,Andorra,2,1,UEFA Euro qualification,Jerusalem,Israel,False
+44683,2023-06-20,Guadeloupe,Guyana,2,0,Gold Cup qualification,Fort Lauderdale,United States,True
+44684,2023-06-20,Martinique,Puerto Rico,2,0,Gold Cup qualification,Fort Lauderdale,United States,True
+44685,2023-06-20,Saint Kitts and Nevis,French Guiana,1,1,Gold Cup qualification,Fort Lauderdale,United States,True
+44686,2023-06-20,Algeria,Tunisia,1,1,Friendly,Annaba,Algeria,False
+44687,2023-06-20,Bolivia,Chile,0,0,Friendly,Santa Cruz,Bolivia,False
+44688,2023-06-20,Brazil,Senegal,2,4,Friendly,Lisbon,Portugal,True
+44689,2023-06-20,China PR,Palestine,2,0,Friendly,Dalian,China PR,False
+44690,2023-06-20,Ecuador,Costa Rica,3,1,Friendly,Chester,United States,True
+44691,2023-06-20,Germany,Colombia,0,2,Friendly,Gelsenkirchen,Germany,False
+44692,2023-06-20,Haiti,Trinidad and Tobago,0,0,Friendly,Palm Beach Gardens,United States,True
+44693,2023-06-20,Japan,Peru,4,1,Friendly,Suita,Japan,False
+44694,2023-06-20,South Korea,El Salvador,1,1,Friendly,Daejeon,South Korea,False
+44695,2023-06-20,Malaysia,Papua New Guinea,10,0,Friendly,Terengganu,Malaysia,False
+44696,2023-06-20,Montenegro,Czech Republic,1,4,Friendly,Podgorica,Montenegro,False
+44697,2023-06-20,Uruguay,Cuba,2,0,Friendly,Montevideo,Uruguay,False
+44698,2023-06-20,Vietnam,Syria,1,0,Friendly,Nam Định,Vietnam,False
+44699,2023-06-20,Scotland,Georgia,2,0,UEFA Euro qualification,Glasgow,Scotland,False
+44700,2023-06-20,Norway,Cyprus,3,1,UEFA Euro qualification,Oslo,Norway,False
+44701,2023-06-20,Faroe Islands,Albania,1,3,UEFA Euro qualification,Tórshavn,Faroe Islands,False
+44702,2023-06-20,Moldova,Poland,3,2,UEFA Euro qualification,Chișinău,Moldova,False
+44703,2023-06-20,Austria,Sweden,2,0,UEFA Euro qualification,Vienna,Austria,False
+44704,2023-06-20,Estonia,Belgium,0,3,UEFA Euro qualification,Tallinn,Estonia,False
+44705,2023-06-20,Hungary,Lithuania,2,0,UEFA Euro qualification,Budapest,Hungary,False
+44706,2023-06-20,Bulgaria,Serbia,1,1,UEFA Euro qualification,Razgrad,Bulgaria,False
+44707,2023-06-20,Iceland,Portugal,0,1,UEFA Euro qualification,Reykjavík,Iceland,False
+44708,2023-06-20,Bosnia and Herzegovina,Luxembourg,0,2,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False
+44709,2023-06-20,Liechtenstein,Slovakia,0,1,UEFA Euro qualification,Vaduz,Liechtenstein,False
+44710,2023-06-20,Kyrgyzstan,Oman,0,1,CAFA Nations Cup,Tashkent,Uzbekistan,True
+44711,2023-06-20,Uzbekistan,Iran,0,1,CAFA Nations Cup,Tashkent,Uzbekistan,False
+44712,2023-06-21,Kuwait,Nepal,3,1,SAFF Cup,Bengaluru,India,True
+44713,2023-06-21,India,Pakistan,4,0,SAFF Cup,Bengaluru,India,False
+44714,2023-06-22,Lebanon,Bangladesh,2,0,SAFF Cup,Bengaluru,India,True
+44715,2023-06-22,Maldives,Bhutan,2,0,SAFF Cup,Bengaluru,India,True
+44716,2023-06-24,Pakistan,Kuwait,0,4,SAFF Cup,Bengaluru,India,True
+44717,2023-06-24,India,Nepal,2,0,SAFF Cup,Bengaluru,India,False
+44718,2023-06-24,United States,Jamaica,1,1,Gold Cup,Chicago,United States,False
+44719,2023-06-25,Bangladesh,Maldives,3,1,SAFF Cup,Bengaluru,India,True
+44720,2023-06-25,Bhutan,Lebanon,1,4,SAFF Cup,Bengaluru,India,True
+44721,2023-06-25,Trinidad and Tobago,Saint Kitts and Nevis,3,0,Gold Cup,Fort Lauderdale,United States,True
+44722,2023-06-25,Haiti,Qatar,2,1,Gold Cup,Houston,United States,True
+44723,2023-06-25,Mexico,Honduras,4,0,Gold Cup,Houston,United States,True
+44724,2023-06-26,El Salvador,Martinique,1,2,Gold Cup,Fort Lauderdale,United States,True
+44725,2023-06-26,Costa Rica,Panama,1,2,Gold Cup,Fort Lauderdale,United States,True
+44726,2023-06-27,Nepal,Pakistan,1,0,SAFF Cup,Bengaluru,India,True
+44727,2023-06-27,India,Kuwait,1,1,SAFF Cup,Bengaluru,India,False
+44728,2023-06-27,Canada,Guadeloupe,2,2,Gold Cup,Toronto,Canada,False
+44729,2023-06-27,Guatemala,Cuba,1,0,Gold Cup,Fort Lauderdale,United States,True
+44730,2023-06-28,Lebanon,Maldives,1,0,SAFF Cup,Bengaluru,India,True
+44731,2023-06-28,Bhutan,Bangladesh,1,3,SAFF Cup,Bengaluru,India,True
+44732,2023-06-28,Jamaica,Trinidad and Tobago,4,1,Gold Cup,St. Louis,United States,True
+44733,2023-06-28,United States,Saint Kitts and Nevis,6,0,Gold Cup,St. Louis,United States,False
+44734,2023-06-29,Qatar,Honduras,1,1,Gold Cup,Glendale,United States,True
+44735,2023-06-29,Haiti,Mexico,1,3,Gold Cup,Glendale,United States,True
+44736,2023-06-30,Székely Land,Chameria,3,2,CONIFA World Football Cup qualification,Miercurea Ciuc,Hungary,False
+44737,2023-06-30,Martinique,Panama,1,2,Gold Cup,Harrison,United States,True
+44738,2023-06-30,El Salvador,Costa Rica,0,0,Gold Cup,Harrison,United States,True
+44739,2023-07-01,Chameria,Two Sicilies,3,1,CONIFA World Football Cup qualification,Miercurea Ciuc,Hungary,True
+44740,2023-07-01,India,Lebanon,0,0,SAFF Cup,Bengaluru,India,False
+44741,2023-07-01,Kuwait,Bangladesh,1,0,SAFF Cup,Bengaluru,India,True
+44742,2023-07-01,Cuba,Guadeloupe,1,4,Gold Cup,Houston,United States,True
+44743,2023-07-01,Guatemala,Canada,0,0,Gold Cup,Houston,United States,True
+44744,2023-07-02,Székely Land,Two Sicilies,7,0,CONIFA World Football Cup qualification,Miercurea Ciuc,Hungary,False
+44745,2023-07-02,United States,Trinidad and Tobago,6,0,Gold Cup,Charlotte,United States,False
+44746,2023-07-02,Jamaica,Saint Kitts and Nevis,5,0,Gold Cup,Santa Clara,United States,True
+44747,2023-07-02,Honduras,Haiti,2,1,Gold Cup,Charlotte,United States,True
+44748,2023-07-02,Mexico,Qatar,0,1,Gold Cup,Santa Clara,United States,True
+44749,2023-07-04,India,Kuwait,1,1,SAFF Cup,Bengaluru,India,False
+44750,2023-07-04,Costa Rica,Martinique,6,4,Gold Cup,Harrison,United States,True
+44751,2023-07-04,Panama,El Salvador,2,2,Gold Cup,Houston,United States,True
+44752,2023-07-04,Guadeloupe,Guatemala,2,3,Gold Cup,Harrison,United States,True
+44753,2023-07-04,Canada,Cuba,4,2,Gold Cup,Houston,United States,True
+44754,2023-07-08,Panama,Qatar,4,0,Gold Cup,Arlington,United States,True
+44755,2023-07-08,Mexico,Costa Rica,2,0,Gold Cup,Arlington,United States,True
+44756,2023-07-09,Guatemala,Jamaica,0,1,Gold Cup,Cincinnati,United States,True
+44757,2023-07-09,United States,Canada,2,2,Gold Cup,Cincinnati,United States,False
+44758,2023-07-12,United States,Panama,1,1,Gold Cup,San Diego,United States,False
+44759,2023-07-12,Jamaica,Mexico,0,3,Gold Cup,Paradise,United States,True
+44760,2023-07-16,Kernow,Sápmi,2,1,CONIFA World Football Cup qualification,Falmouth,England,False
+44761,2023-07-16,Mexico,Panama,1,0,Gold Cup,Inglewood,United States,True
+44762,2023-08-02,Ethiopia,Guyana,2,0,Friendly,Leesburg,United States,True
+44763,2023-08-04,Tamil Eelam,Hmong,3,0,CONIFA Asia Cup,Alcochete,Portugal,True
+44764,2023-08-05,Hmong,Tibet,5,4,CONIFA Asia Cup,Alcochete,Portugal,True
+44765,2023-08-06,Tibet,Tamil Eelam,1,3,CONIFA Asia Cup,Alcochete,Portugal,True
+44766,2023-08-08,Tamil Eelam,Hmong,3,1,CONIFA Asia Cup,Alcochete,Portugal,True
+44767,2023-08-27,Bolivia,Panama,1,2,Friendly,Cochabamba,Bolivia,False
+44768,2023-08-28,Tahiti,Cook Islands,9,1,Friendly,Pirae,Tahiti,False
+44769,2023-08-31,Tahiti,Cook Islands,3,0,Friendly,Pirae,Tahiti,False
+44770,2023-09-03,Bangladesh,Afghanistan,0,0,Friendly,Dhaka,Bangladesh,False
+44771,2023-09-03,Guatemala,Honduras,0,0,Friendly,Fort Lauderdale,United States,True
+44772,2023-09-04,Mozambique,Benin,3,2,African Cup of Nations qualification,Maputo,Mozambique,False
+44773,2023-09-06,Macau,Bhutan,0,1,Friendly,Taipa,Macau,False
+44774,2023-09-06,Malta,Gibraltar,1,0,Friendly,Ta' Qali,Malta,False
+44775,2023-09-06,Oman,Palestine,2,1,Friendly,Muscat,Oman,False
+44776,2023-09-06,Syria,Malaysia,2,2,Friendly,Chengdu,China PR,True
+44777,2023-09-06,Libya,Equatorial Guinea,1,1,African Cup of Nations qualification,Benghazi,Libya,False
+44778,2023-09-07,Trinidad and Tobago,Curaçao,1,0,CONCACAF Nations League,Port of Spain,Trinidad and Tobago,False
+44779,2023-09-07,Panama,Martinique,3,0,CONCACAF Nations League,Panama City,Panama,False
+44780,2023-09-07,Guatemala,El Salvador,2,0,CONCACAF Nations League,Guatemala City,Guatemala,False
+44781,2023-09-07,Sint Maarten,Saint Lucia,1,5,CONCACAF Nations League,Willemstad,Curaçao,True
+44782,2023-09-07,Saint Kitts and Nevis,Guadeloupe,1,2,CONCACAF Nations League,Basseterre,Saint Kitts and Nevis,False
+44783,2023-09-07,Anguilla,Saint Martin,0,6,CONCACAF Nations League,The Valley,Anguilla,False
+44784,2023-09-07,United States Virgin Islands,Cayman Islands,2,2,CONCACAF Nations League,Saint Croix,United States Virgin Islands,False
+44785,2023-09-07,Colombia,Venezuela,1,0,FIFA World Cup qualification,Barranquilla,Colombia,False
+44786,2023-09-07,Paraguay,Peru,0,0,FIFA World Cup qualification,Ciudad del Este,Paraguay,False
+44787,2023-09-07,Argentina,Ecuador,1,0,FIFA World Cup qualification,Buenos Aires,Argentina,False
+44788,2023-09-07,Austria,Moldova,1,1,Friendly,Pasching,Austria,False
+44789,2023-09-07,Bahrain,Kuwait,1,3,Friendly,Dubai,United Arab Emirates,True
+44790,2023-09-07,Bangladesh,Afghanistan,1,1,Friendly,Dhaka,Bangladesh,False
+44791,2023-09-07,Bulgaria,Iran,0,1,Friendly,Plovdiv,Bulgaria,False
+44792,2023-09-07,Cambodia,Hong Kong,1,1,Friendly,Phnom Penh,Cambodia,False
+44793,2023-09-07,Norway,Jordan,6,0,Friendly,Oslo,Norway,False
+44794,2023-09-07,Qatar,Kenya,1,2,Friendly,Al Wakrah,Qatar,False
+44795,2023-09-07,Wales,South Korea,0,0,Friendly,Cardiff,Wales,False
+44796,2023-09-07,Ghana,Central African Republic,2,1,African Cup of Nations qualification,Kumasi,Ghana,False
+44797,2023-09-07,Angola,Madagascar,0,0,African Cup of Nations qualification,Lubango,Angola,False
+44798,2023-09-07,Algeria,Tanzania,0,0,African Cup of Nations qualification,Annaba,Algeria,False
+44799,2023-09-07,Niger,Uganda,0,2,African Cup of Nations qualification,Marrakech,Morocco,True
+44800,2023-09-07,Tunisia,Botswana,3,0,African Cup of Nations qualification,Radès,Tunisia,False
+44801,2023-09-07,France,Republic of Ireland,2,0,UEFA Euro qualification,Paris,France,False
+44802,2023-09-07,Netherlands,Greece,3,0,UEFA Euro qualification,Eindhoven,Netherlands,False
+44803,2023-09-07,Czech Republic,Albania,1,1,UEFA Euro qualification,Prague,Czech Republic,False
+44804,2023-09-07,Poland,Faroe Islands,2,0,UEFA Euro qualification,Warsaw,Poland,False
+44805,2023-09-07,Serbia,Hungary,1,2,UEFA Euro qualification,Belgrade,Serbia,False
+44806,2023-09-07,Lithuania,Montenegro,2,2,UEFA Euro qualification,Kaunas,Lithuania,False
+44807,2023-09-07,Kazakhstan,Finland,0,1,UEFA Euro qualification,Astana,Kazakhstan,False
+44808,2023-09-07,Denmark,San Marino,4,0,UEFA Euro qualification,Copenhagen,Denmark,False
+44809,2023-09-07,Slovenia,Northern Ireland,4,2,UEFA Euro qualification,Ljubljana,Slovenia,False
+44810,2023-09-07,Iraq,India,2,2,King's Cup,Chiang Mai,Thailand,True
+44811,2023-09-07,Thailand,Lebanon,2,1,King's Cup,Chiang Mai,Thailand,False
+44812,2023-09-08,Haiti,Cuba,0,0,CONCACAF Nations League,Santo Domingo,Dominican Republic,True
+44813,2023-09-08,Grenada,Suriname,1,1,CONCACAF Nations League,St. George's,Grenada,False
+44814,2023-09-08,Jamaica,Honduras,1,0,CONCACAF Nations League,Kingston,Jamaica,False
+44815,2023-09-08,Barbados,Montserrat,2,3,CONCACAF Nations League,Bridgetown,Barbados,False
+44816,2023-09-08,Dominican Republic,Nicaragua,0,2,CONCACAF Nations League,Santo Domingo,Dominican Republic,False
+44817,2023-09-08,Bermuda,French Guiana,0,0,CONCACAF Nations League,Devonshire Parish,Bermuda,False
+44818,2023-09-08,Belize,Saint Vincent and the Grenadines,1,2,CONCACAF Nations League,Belmopan,Belize,False
+44819,2023-09-08,Uruguay,Chile,3,1,FIFA World Cup qualification,Montevideo,Uruguay,False
+44820,2023-09-08,Brazil,Bolivia,5,1,FIFA World Cup qualification,Belém,Brazil,False
+44821,2023-09-08,Taiwan,Philippines,1,1,Friendly,Kaohsiung,Taiwan,False
+44822,2023-09-08,Costa Rica,Saudi Arabia,3,1,Friendly,Newcastle,England,True
+44823,2023-09-08,Indonesia,Turkmenistan,2,0,Friendly,Surabaya,Indonesia,False
+44824,2023-09-08,Myanmar,Nepal,0,0,Friendly,Yangon,Myanmar,False
+44825,2023-09-08,Singapore,Tajikistan,0,2,Friendly,Bishan,Singapore,False
+44826,2023-09-08,Burkina Faso,Eswatini,0,0,African Cup of Nations qualification,Marrakech,Morocco,True
+44827,2023-09-08,Egypt,Ethiopia,1,0,African Cup of Nations qualification,Cairo,Egypt,False
+44828,2023-09-08,Mali,South Sudan,4,0,African Cup of Nations qualification,Bamako,Mali,False
+44829,2023-09-08,Georgia,Spain,1,7,UEFA Euro qualification,Tbilisi,Georgia,False
+44830,2023-09-08,Cyprus,Scotland,0,3,UEFA Euro qualification,Larnaca,Cyprus,False
+44831,2023-09-08,Croatia,Latvia,5,0,UEFA Euro qualification,Rijeka,Croatia,False
+44832,2023-09-08,Turkey,Armenia,1,1,UEFA Euro qualification,Eskişehir,Turkey,False
+44833,2023-09-08,Bosnia and Herzegovina,Liechtenstein,2,1,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False
+44834,2023-09-08,Luxembourg,Iceland,3,1,UEFA Euro qualification,Luxembourg,Luxembourg,False
+44835,2023-09-08,Slovakia,Portugal,0,1,UEFA Euro qualification,Bratislava,Slovakia,False
+44836,2023-09-09,Antigua and Barbuda,Guyana,1,5,CONCACAF Nations League,North Sound,Antigua and Barbuda,False
+44837,2023-09-09,Bahamas,Puerto Rico,1,6,CONCACAF Nations League,Nassau,Bahamas,False
+44838,2023-09-09,British Virgin Islands,Turks and Caicos Islands,3,1,CONCACAF Nations League,Road Town,British Virgin Islands,False
+44839,2023-09-09,China PR,Malaysia,1,1,Friendly,Chengdu,China PR,False
+44840,2023-09-09,Germany,Japan,1,4,Friendly,Wolfsburg,Germany,False
+44841,2023-09-09,Mexico,Australia,2,2,Friendly,Arlington,United States,True
+44842,2023-09-09,South Africa,Namibia,0,0,Friendly,Johannesburg,South Africa,False
+44843,2023-09-09,United States,Uzbekistan,3,0,Friendly,St. Louis,United States,False
+44844,2023-09-09,Malawi,Guinea,2,2,African Cup of Nations qualification,Lilongwe,Malawi,False
+44845,2023-09-09,Ivory Coast,Lesotho,1,0,African Cup of Nations qualification,San-Pédro,Ivory Coast,False
+44846,2023-09-09,Comoros,Zambia,1,1,African Cup of Nations qualification,Moroni,Comoros,False
+44847,2023-09-09,Mauritania,Gabon,2,1,African Cup of Nations qualification,Nouakchott,Mauritania,False
+44848,2023-09-09,DR Congo,Sudan,2,0,African Cup of Nations qualification,Kinshasa,DR Congo,False
+44849,2023-09-09,Rwanda,Senegal,1,1,African Cup of Nations qualification,Butare,Rwanda,False
+44850,2023-09-09,Ukraine,England,1,1,UEFA Euro qualification,Wrocław,Poland,True
+44851,2023-09-09,North Macedonia,Italy,1,1,UEFA Euro qualification,Skopje,North Macedonia,False
+44852,2023-09-09,Azerbaijan,Belgium,0,1,UEFA Euro qualification,Baku,Azerbaijan,False
+44853,2023-09-09,Estonia,Sweden,0,5,UEFA Euro qualification,Tallinn,Estonia,False
+44854,2023-09-09,Andorra,Belarus,0,0,UEFA Euro qualification,Andorra la Vella,Andorra,False
+44855,2023-09-09,Kosovo,Switzerland,2,2,UEFA Euro qualification,Pristina,Kosovo,False
+44856,2023-09-09,Romania,Israel,1,1,UEFA Euro qualification,Bucharest,Romania,False
+44857,2023-09-10,Guatemala,Panama,1,1,CONCACAF Nations League,Guatemala City,Guatemala,False
+44858,2023-09-10,El Salvador,Trinidad and Tobago,2,3,CONCACAF Nations League,San Salvador,El Salvador,False
+44859,2023-09-10,Martinique,Curaçao,1,0,CONCACAF Nations League,Fort de France,Martinique,False
+44860,2023-09-10,Guadeloupe,Sint Maarten,4,0,CONCACAF Nations League,Sainte-Anne,Guadeloupe,False
+44861,2023-09-10,Saint Lucia,Saint Kitts and Nevis,2,0,CONCACAF Nations League,Gros Islet,Saint Lucia,False
+44862,2023-09-10,Hungary,Czech Republic,1,1,Friendly,Budapest,Hungary,False
+44863,2023-09-10,Nigeria,São Tomé and Príncipe,6,0,African Cup of Nations qualification,Uyo,Nigeria,False
+44864,2023-09-10,Togo,Cape Verde,3,2,African Cup of Nations qualification,Lomé,Togo,False
+44865,2023-09-10,Gambia,Congo,2,2,African Cup of Nations qualification,Marrakech,Morocco,True
+44866,2023-09-10,Republic of Ireland,Netherlands,1,2,UEFA Euro qualification,Dublin,Republic of Ireland,False
+44867,2023-09-10,Greece,Gibraltar,5,0,UEFA Euro qualification,Athens,Greece,False
+44868,2023-09-10,Faroe Islands,Moldova,0,1,UEFA Euro qualification,Tórshavn,Faroe Islands,False
+44869,2023-09-10,Albania,Poland,2,0,UEFA Euro qualification,Tirana,Albania,False
+44870,2023-09-10,Montenegro,Bulgaria,2,1,UEFA Euro qualification,Podgorica,Montenegro,False
+44871,2023-09-10,Lithuania,Serbia,1,3,UEFA Euro qualification,Kaunas,Lithuania,False
+44872,2023-09-10,Finland,Denmark,0,1,UEFA Euro qualification,Helsinki,Finland,False
+44873,2023-09-10,Kazakhstan,Northern Ireland,1,0,UEFA Euro qualification,Astana,Kazakhstan,False
+44874,2023-09-10,San Marino,Slovenia,0,4,UEFA Euro qualification,Serravalle,San Marino,False
+44875,2023-09-10,Lebanon,India,1,0,King's Cup,Chiang Mai,Thailand,True
+44876,2023-09-10,Thailand,Iraq,2,2,King's Cup,Chiang Mai,Thailand,False
+44877,2023-09-11,Dominican Republic,Montserrat,3,0,CONCACAF Nations League,Santo Domingo,Dominican Republic,False
+44878,2023-09-11,Nicaragua,Barbados,5,1,CONCACAF Nations League,Managua,Nicaragua,False
+44879,2023-09-11,Saint Martin,Bonaire,2,1,CONCACAF Nations League,Basseterre,Saint Kitts and Nevis,True
+44880,2023-09-11,Cayman Islands,Aruba,1,2,CONCACAF Nations League,George Town,Cayman Islands,False
+44881,2023-09-11,Cambodia,Macau,4,0,Friendly,Phnom Penh,Cambodia,False
+44882,2023-09-11,Hong Kong,Brunei,10,0,Friendly,Hong Kong,Hong Kong,False
+44883,2023-09-11,Kuwait,Kyrgyzstan,1,3,Friendly,Dubai,United Arab Emirates,True
+44884,2023-09-11,Myanmar,Nepal,1,0,Friendly,Yangon,Myanmar,False
+44885,2023-09-11,Vietnam,Palestine,2,0,Friendly,Nam Định,Vietnam,False
+44886,2023-09-11,Guinea-Bissau,Sierra Leone,2,1,African Cup of Nations qualification,Bissau,Guinea-Bissau,False
+44887,2023-09-11,Armenia,Croatia,0,1,UEFA Euro qualification,Yerevan,Armenia,False
+44888,2023-09-11,Latvia,Wales,0,2,UEFA Euro qualification,Riga,Latvia,False
+44889,2023-09-11,Iceland,Bosnia and Herzegovina,1,0,UEFA Euro qualification,Reykjavík,Iceland,False
+44890,2023-09-11,Portugal,Luxembourg,9,0,UEFA Euro qualification,São João da Venda,Portugal,False
+44891,2023-09-11,Slovakia,Liechtenstein,3,0,UEFA Euro qualification,Bratislava,Slovakia,False
+44892,2023-09-12,Cuba,Suriname,1,0,CONCACAF Nations League,Santiago,Cuba,False
+44893,2023-09-12,Jamaica,Haiti,2,2,CONCACAF Nations League,Kingston,Jamaica,False
+44894,2023-09-12,Honduras,Grenada,4,0,CONCACAF Nations League,Tegucigalpa,Honduras,False
+44895,2023-09-12,Saint Vincent and the Grenadines,Bermuda,4,3,CONCACAF Nations League,Kingstown,Saint Vincent and the Grenadines,False
+44896,2023-09-12,French Guiana,Belize,0,2,CONCACAF Nations League,Cayenne,French Guiana,False
+44897,2023-09-12,Guyana,Bahamas,3,2,CONCACAF Nations League,Leonora,Guyana,False
+44898,2023-09-12,Puerto Rico,Antigua and Barbuda,5,0,CONCACAF Nations League,Nassau,Bahamas,True
+44899,2023-09-12,Turks and Caicos Islands,Dominica,0,3,CONCACAF Nations League,Providenciales,Turks and Caicos Islands,False
+44900,2023-09-12,Bolivia,Argentina,0,3,FIFA World Cup qualification,La Paz,Bolivia,False
+44901,2023-09-12,Ecuador,Uruguay,2,1,FIFA World Cup qualification,Quito,Ecuador,False
+44902,2023-09-12,Venezuela,Paraguay,1,0,FIFA World Cup qualification,Maturín,Venezuela,False
+44903,2023-09-12,Peru,Brazil,0,1,FIFA World Cup qualification,Lima,Peru,False
+44904,2023-09-12,Chile,Colombia,0,0,FIFA World Cup qualification,Santiago,Chile,False
+44905,2023-09-12,Azerbaijan,Jordan,2,1,Friendly,Baku,Azerbaijan,False
+44906,2023-09-12,Bahrain,Turkmenistan,1,1,Friendly,Dubai,United Arab Emirates,True
+44907,2023-09-12,China PR,Syria,0,1,Friendly,Chengdu,China PR,False
+44908,2023-09-12,Egypt,Tunisia,1,3,Friendly,Cairo,Egypt,False
+44909,2023-09-12,Germany,France,2,1,Friendly,Dortmund,Germany,False
+44910,2023-09-12,Ghana,Liberia,3,1,Friendly,Accra,Ghana,False
+44911,2023-09-12,Iran,Angola,4,0,Friendly,Tehran,Iran,False
+44912,2023-09-12,Japan,Turkey,4,4,Friendly,Genk,Belgium,True
+44913,2023-09-12,Kenya,South Sudan,0,1,Friendly,Nairobi,Kenya,False
+44914,2023-09-12,South Korea,Saudi Arabia,1,0,Friendly,Newcastle,England,True
+44915,2023-09-12,Mexico,Uzbekistan,3,3,Friendly,Atlanta,United States,True
+44916,2023-09-12,Morocco,Burkina Faso,1,0,Friendly,Lens,France,True
+44917,2023-09-12,Philippines,Afghanistan,2,1,Friendly,Manila,Philippines,False
+44918,2023-09-12,Scotland,England,1,3,Friendly,Glasgow,Scotland,False
+44919,2023-09-12,Senegal,Algeria,0,1,Friendly,Diamniadio,Senegal,False
+44920,2023-09-12,Singapore,Taiwan,3,1,Friendly,Bishan,Singapore,False
+44921,2023-09-12,South Africa,DR Congo,1,0,Friendly,Johannesburg,South Africa,False
+44922,2023-09-12,United Arab Emirates,Costa Rica,4,1,Friendly,Zagreb,Croatia,True
+44923,2023-09-12,United States,Oman,4,0,Friendly,Saint Paul,United States,False
+44924,2023-09-12,Cameroon,Burundi,3,0,African Cup of Nations qualification,Garoua,Cameroon,False
+44925,2023-09-12,Norway,Georgia,2,1,UEFA Euro qualification,Oslo,Norway,False
+44926,2023-09-12,Spain,Cyprus,6,0,UEFA Euro qualification,Granada,Spain,False
+44927,2023-09-12,Italy,Ukraine,2,1,UEFA Euro qualification,Milan,Italy,False
+44928,2023-09-12,Malta,North Macedonia,0,2,UEFA Euro qualification,Ta' Qali,Malta,False
+44929,2023-09-12,Belgium,Estonia,5,0,UEFA Euro qualification,Brussels,Belgium,False
+44930,2023-09-12,Sweden,Austria,1,3,UEFA Euro qualification,Stockholm,Sweden,False
+44931,2023-09-12,Switzerland,Andorra,3,0,UEFA Euro qualification,Sion,Switzerland,False
+44932,2023-09-12,Israel,Belarus,1,0,UEFA Euro qualification,Tel Aviv,Israel,False
+44933,2023-09-12,Romania,Kosovo,2,0,UEFA Euro qualification,Bucharest,Romania,False
