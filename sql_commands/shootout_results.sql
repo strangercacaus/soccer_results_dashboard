@@ -1,3 +1,5 @@
+create or replace view shootout_results
+as
 with matches as (
 		   select r.home_team as team,
     	   to_char(r."date"::date, 'YYYY') as year,

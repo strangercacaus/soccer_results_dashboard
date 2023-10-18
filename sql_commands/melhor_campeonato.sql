@@ -1,8 +1,9 @@
-with times_and_camps as(
+create or replace view best_championship
+as with times_and_camps as(
 select 
 	distinct 
 	home_team as team,
-	tournament
+	r.tournament
 		from 
 	results r 
 ),

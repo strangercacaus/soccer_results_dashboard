@@ -1,9 +1,10 @@
-with matches as (
-    select home_team as team,
+create or replace view goals_cummulative
+as with matches as (
+    select r.home_team as team,
     	   to_char("date"::date, 'YYYY') as year,
-           away_team as oponent,
-           tournament,
-           home_score as gols,
+           r.away_team as oponent,
+           r.tournament,
+           r.home_score as gols,
            case
                when home_score > away_score then 'vitoria'
                when home_score < away_score then 'derrota'
@@ -11,11 +12,11 @@ with matches as (
            end as "result"
     from results r
     union all
-    select away_team as team,
+    select r.away_team as team,
     	   to_char("date"::date, 'YYYY') as ano,
-           home_team as oponent,
-           tournament,
-           away_score as goals,
+           r.home_team as oponent,
+           r.tournament,
+           r.away_score as goals,
            case
                when away_score > home_score then 'vitoria'
                when away_score < home_score then 'derrota'

@@ -1,3 +1,5 @@
+create or replace view best_matches
+as
 with matches as (
     select home_team as team,
            away_team as oponent,
@@ -43,7 +45,7 @@ select irt."time",
 	   irt.empates,
 	   irt.total,
 	   irt.tx_vitoria,
-       irt.
+       irt."rank"
 from(
 		select team as "time",
 		       oponent as pior_contra,
@@ -54,11 +56,12 @@ from(
 		       win_rate tx_vitoria,
 		       "rank",
 		       (select max("rank") from ranking r2 where r2.team = r.team) as max,
-               case when "rank" = "max" then 'pior'
+               case when "rank" = max("rank") then 'pior'
                     when "rank" = 1 then 'melhor'
                     else null end as class
 		from ranking r
 		where total > 3
+		group by 1,2,3,4,5,6,7,8
 		order by "rank" desc) irt
 where (case when "rank" = "max" then 'pior'
 when "rank" = 1 then 'melhor'

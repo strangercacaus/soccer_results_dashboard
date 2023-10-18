@@ -1,4 +1,8 @@
 .git/*
 db/*
+db/base/
 env/*
 .env
+.DS_Store
+sql_commands/.project
+db/global/pg_control

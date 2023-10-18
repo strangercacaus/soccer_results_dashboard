@@ -1,3 +1,5 @@
+create or replace view goals_distribuition
+as
 SELECT distinct teams.team, minutes.minute, COALESCE(counts.count, 0) as count
 FROM (SELECT DISTINCT team FROM goalscorers) AS teams
 CROSS JOIN (

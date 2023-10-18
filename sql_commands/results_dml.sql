@@ -5,7 +5,7 @@ CREATE TABLE public.results (
     away_team varchar(50), 
     home_score integer,
     away_score integer,
-    tournment varchar,
+    tournament varchar,
     city varchar,
     country varchar(50),
     neutral boolean

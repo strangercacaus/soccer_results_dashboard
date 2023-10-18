@@ -1,4 +1,5 @@
--- Primeira CTE: Retorna uma lista com o nome de todos os países sem duplicatas
+create or replace view results_index
+as-- Primeira CTE: Retorna uma lista com o nome de todos os países sem duplicatas
 with paises as (
 select distinct *
 from
