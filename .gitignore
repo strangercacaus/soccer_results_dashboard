@@ -2,6 +2,8 @@
 db_volume/*
 db/*
 db/base/
+.db_volume/*
+.bi_volume/*
 env/*
 .DS_Store
 sql_commands/.project

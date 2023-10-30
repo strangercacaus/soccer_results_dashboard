@@ -54,7 +54,6 @@ root
 ├── requirements.txt
 ├── .gitignore
 ├── docker-compose.yml # Arquivo de configuração do ambiente do Docker
-├── Dockerfile # Arquivo de configuração do ambiente do Docker
 ├── mkDocs.yaml # Arquivo de configuração da documentação
 └── README.md
 

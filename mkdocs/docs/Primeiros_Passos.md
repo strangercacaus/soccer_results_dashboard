@@ -25,6 +25,16 @@ metabase/metabase             latest    2b600465cfbe   2 weeks ago    484MB
 postgres                      latest    96f08c06113e   6 weeks ago    438MB
 ```
 --------
+
+#### 7: Carregando os dados de exemplo do Metabase salvo
+Caso você deseje carregar o dashboard criado na preview dewste repositório, realize a etapa seguinte antes de criar os conteiners:
+```bash
+cd volumes
+unzip .bi_volume.zip
+```
+*Este comando irá descompactar o arquivo .bi_volume.zip para uma pasta de mesmo nome (.bi_volume)
+Esta pasta está configurada como volume vinculado ao caminho '/metabase.db' no arquivo docker-compose.yml*
+
 #### 4. Crie  um container com as imagens utilizando o Docker-Compose
 
 ```bash
@@ -118,3 +128,6 @@ admin@provider.com
 ```
 since2008
 ```
+*ATENÇÃO:*
+Caso o Metabase solicite a criação de um novo usuário e a configuração manual da conexão ao PostgreSQL utilize a sigla 'db' no lugar do HOST.
+Este detalhe é necessário pois como Metabase e PostgreSQL estão no mesmo conteiner, o HOST de cada um é identificado pelo nome do serviç definido no arquivo dockerfile.yml
