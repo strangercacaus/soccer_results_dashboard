@@ -48,13 +48,35 @@ a24fdf0e24ba   metabase/metabase   "/app/run_metabase.sh"   14 hours ago   Up 6 
 docker stop <container_id>
 ```
 
-#### 7.  Execute o Script `src/main.py`
+#### 7. Crie um ambiente virtual `venv`.
+```bash
+python3 -m venv env
+```
+*Certifique-se de estar localizado na pasta raiz do projeto no momento da criação do ambiente virtual*
+
+#### 8. Ative o ambiente virtual.
+
+```bash
+source env/bin/activate
+```
+** Assim que o ambiente virtual for ativado, o terminal anternará o valor exibido entre parênteses de `base` para `env`:
+```
+(base) 192:Desafio-Resultados-do-Futebol-Eng.-de-Dados user$ source env/bin/activate
+(env) (base) 192:Desafio-Resultados-do-Futebol-Eng.-de-Dados user$
+```
+
+#### 9. Instale os pacotes listados no arquivo `requirements.txt`.
+```bash
+pip instal -r requirements.txt
+```
+
+#### 10.  Execute o Script `src/main.py`
 
 Com os containers ativos, já é possível utilizar o script main.py, que irá criar as tabelas descritas nos comandos SQL, obter 3 arquivos CSV do Dataset localizado no Kaggle e inseri-los nas tabelas do Banco de Dados.
 
 Os acessos para o banco de dados são configurados no arquivo docker-compose e são os seguintes:
 
-#### 8. Acesso ao Banco de Dados
+#### 11. Acesso ao Banco de Dados
 
 `Host:`
 ```
@@ -77,7 +99,7 @@ root
 root
 ```
 
-#### 9. Accesso ao Metabase:
+#### 12. Accesso ao Metabase:
 
 Com as tabelas criadas, uma série de perguntas e queries personalizadas para os dados obtidos já estarão disponíveis no metabase.
 

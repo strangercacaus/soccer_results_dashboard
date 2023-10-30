@@ -1,15 +1,17 @@
-# Bem vindo
+#Boas Vindas
+
+## Introdução
 
 Este é um projeto de Business Intelligence que teve inicio durante o Bootcamp de Data Engineering da How Bootcamps em 2023.
 Ao longo do tempo incluí melhorias de estrutura de projeto e documentação.
 
-# Objetivo
+## Objetivo
 Este projeto possui 2 objetivos principais:
 
 - Explorar o conceito de Conteinerização para gestão de dependências e ambientes virtuais.
 - Criar uma estrutura de BI do zero, implementando um banco de dados e uma ferramenta de BI.
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ![Python](https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=yellow)
 >
@@ -35,15 +37,17 @@ root
 ├── .bi_volume/ # Diretório vinculado ao conteiner docker na imagem do metabase.
 ├── .db_volume/ # Diretório vinculado ao conteiner docker na imagem do postgresql.
 ├── backups/ # Diretório com o backup dos dados contidos no .bi_volume e .db_volume.
-├── docs/ # Documentação
+├── docs/ # Arquivos de documentação
 ├── sql_files/ # Comandos DML para criação de tabelas e views.
 ├── src/
 │   └── main.py # Script de ingestão
 ├── previews/ # Prints e imagens do projeto
-├── docker-compose.yml # Arquivo de configuração do ambiente do Docker
-├── Dockefile # Arquivo de configuração do ambiente do Docker
-├── .gitignore # Arquivo de configuração do git.
-├── README.md
 ├── .env # Arquivo com credenciais de acesso ao banco de dados.
-└── requirements.txt
+├── requirements.txt
+├── .gitignore
+├── docker-compose.yml # Arquivo de configuração do ambiente do Docker
+├── Dockerfile # Arquivo de configuração do ambiente do Docker
+├── mkDocs.yaml # Arquivo de configuração da documentação
+└── README.md
+
 ```

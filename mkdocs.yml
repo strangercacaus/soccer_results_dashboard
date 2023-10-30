@@ -1,5 +1,8 @@
-site_name: Resultados do Futebol
+site_name: Resultados do Futebol desde 1920
+icon: material/toggle-switch
 theme:
+  logo: img/code-xxl.png
+  logo_color: white
   name: material
   features:
     - navigation.tabs
@@ -18,25 +21,24 @@ theme:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
       primary: teal
-      accent: purple 
+      accent: green 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
       primary: teal
-      accent: lime
+      accent: green
 repo_url: https://github.com/strangercacaus/resultados_do_futebol_desde_1980
 repo_name: resultados_do_futebol_desde_1980
 
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/james-willett
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
+    - icon: fontawesome/brands/github
+      link: https://github.com/stranger_cacaus
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/willettjames/
-
+      link: https://www.linkedin.com/in/cacau/
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/caueausec
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
