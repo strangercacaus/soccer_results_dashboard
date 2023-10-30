@@ -11,6 +11,10 @@ Este projeto possui 2 objetivos principais:
 - Explorar o conceito de Conteinerização para gestão de dependências e ambientes virtuais.
 - Criar uma estrutura de BI do zero, implementando um banco de dados e uma ferramenta de BI.
 
+## Documentação do Projeto:
+
+https://strangercacaus.github.io/resultados_do_futebol_desde_1980/
+
 ## Tecnologias Utilizadas
 
 ![Python](https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=yellow)
@@ -25,7 +29,6 @@ Este projeto possui 2 objetivos principais:
 ![Metabase](https://img.shields.io/badge/Metabase%20-%20%23509EE3?style=for-the-badge&logo=metabase&logoColor=white)
 >
 > Também Open-Source e compatível com Docker, o Metabase foi a ferramenta de BI escolhida para a exploração dos dados do projeto.
-
 
 ![Docker](https://img.shields.io/badge/docker-1E63EE.svg?style=for-the-badge&logo=docker&logoColor=white)
 >
