@@ -1,4 +1,5 @@
 .git/*
+db_volume/*
 db/*
 db/base/
 env/*

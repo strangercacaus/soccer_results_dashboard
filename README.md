@@ -6,83 +6,98 @@ O projeto contido neste repositório contempla a configuração de um banco de d
 
 Uma vez que os arquivos DockerFile e Docker-Compose foram criados, as seguintes etapas são executadas para subir o ambiente Postgresql e Metabase
 
-## 1- Realizar os downloads:
-```
-- Docker Desktop
-- imagem httpd 
-```
+## 1- Realizar o download do Docker Desktop:
 
-## 2- Construir a imagem Web_Apache
-```shell
-docker build -t web_apache .
-```
+[![Docker Desktop](https://img.shields.io/badge/Docker_Desktop-blue?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/products/docker-desktop)
 
-## 3 -Listar imagens disponíveis
+## 2- Realize o pull das imagens:
+```bash
+docker pull metabase/metabase
+docker pull postgres
+```
+*O download das imagens também pode ser feito através do aplicativo do Docker desktop*
+
+## 2- Certifique-se se as imagens baixadas foram identificadas pelo docker
 ```shell
 docker image ls
 ```
-
-## 4 -Executar um container 
-```shell
-docker run -d -p 80:80 web_apache
+*Output:*
+```bash
+REPOSITORY                    TAG       IMAGE ID       CREATED        SIZE
+metabase/metabase             latest    2b600465cfbe   2 weeks ago    484MB
+postgres                      latest    96f08c06113e   6 weeks ago    438MB
 ```
 
-## 5- Exibir containers ativos
+## 3- Suba um container com as imagens utilizando o Docker-Compose
+
+```bash
+docker-compose up
+```
+*É possível especificar o serviço desejado contido no docker-compose.yml após o comando up, neste caso vamos subir um container com ambos os serviços*
+
+## 4- Exiba os containers ativos
 ```shell
 docker ps
 ```
-
-## 6 -Parar um container
+*Output (Truncado para visualização):*
+```bash
+CONTAINER ID   IMAGE               COMMAND                  CREATED          ...
+a24fdf0e24ba   metabase/metabase   "/app/run_metabase.sh"   27 seconds ago   ...
+4c609ec470be   postgres            "docker-entrypoint.s…"   27 seconds ago   ...
+```
+## 6- Caso deseje parar um container
 
 ```shell
 docker stop <container_id>
 ```
 
-## 7- Subir um banco de dados com o compose
-```shell
-> docker-compose up <service_name> # (Sobe todos os serviços se não for espeficado)
-```
+## 7- Execute main.py
 
 Com os ambientes rodando, já é possível utilizar o script main.py, responsável por obter 3 diferentes arquivos CSV de um endereço online e persisti-los no banco de dados no formato de tabelas.
 
 Os acessos para o banco de dados são configurados no arquivo docker-compose e são os seguintes:
 
-### Host:
+## 8- Para acessar o Banco de dados
+
+`Host:`
 ```
 0.0.0.0 ou localhost
 ```
-
-### Porta:
+`Porta:`
 ```
 5432
 ```
-
-### Database:
+`Database:`
 ```
 test_db
 ```
-
-### User:
+`User:`
 ```
 root
 ```
-### Password:
+`Senha:`
 ```
 root
 ```
 
-Com as tabelas criadas, uma série de perguntas e queries personalizadas para os dados obtidos já estarão disponíveis no metabase, acessado através do localhost::3000
+## 9 Para acessar o Metabase:
 
-Os dados de acesso são os seguintes:
+Com as tabelas criadas, uma série de perguntas e queries personalizadas para os dados obtidos já estarão disponíveis no metabase.
 
-### Login:
+`URL:`
+```
+localhost::3000
+```
+
+### Credenciais:
+
+`E-mail:`
 ```
 admin@provider.com
 ```
-
-### Senha:
+`Senha:`
 ```
-root
+since2008
 ```
 
 No final, os dados coletados e analisados estarão disponíveis em
