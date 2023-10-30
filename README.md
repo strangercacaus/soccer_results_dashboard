@@ -1,106 +1,58 @@
-# Desafio SQL How Bootcamps - Resultados Internacionais de Futebol desde 1872
+# Boas Vindas
 
-Este projeto foi desenvolvido como parte de um desafio de engenharia e análise de dados no bootcamp data engineering ministrado na How Bootcamps em 2023.
+## Introdução
 
-O projeto contido neste repositório contempla a configuração de um banco de dados PostgreSQL e ferramenta de business intelligence Metabase em um ambiente containerizado utilizando o Docker Desktop.
+Este é um projeto de Business Intelligence que teve inicio durante o Bootcamp de Data Engineering da How Bootcamps em 2023.
+Ao longo do tempo incluí melhorias de estrutura de projeto e documentação.
 
-Uma vez que os arquivos DockerFile e Docker-Compose foram criados, as seguintes etapas são executadas para subir o ambiente Postgresql e Metabase
+## Objetivo
+Este projeto possui 2 objetivos principais:
 
-## 1- Realizar o download do Docker Desktop:
+- Explorar o conceito de Conteinerização para gestão de dependências e ambientes virtuais.
+- Criar uma estrutura de BI do zero, implementando um banco de dados e uma ferramenta de BI.
 
-[![Docker Desktop](https://img.shields.io/badge/Docker_Desktop-blue?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/products/docker-desktop)
+## Tecnologias Utilizadas
 
-## 2- Realize o pull das imagens:
-```bash
-docker pull metabase/metabase
-docker pull postgres
-```
-*O download das imagens também pode ser feito através do aplicativo do Docker desktop*
+![Python](https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=yellow)
+>
+>Para a criação de tabelas e views de maneira programática foi utilizado Python, assim como para a ingestão de dados e inserção no banco.
+>As bibliotecas utilizadas na rotina foram `sqlalchemy`, `requests` e `pandas`
 
-## 2- Certifique-se se as imagens baixadas foram identificadas pelo docker
-```shell
-docker image ls
-```
-*Output:*
-```bash
-REPOSITORY                    TAG       IMAGE ID       CREATED        SIZE
-metabase/metabase             latest    2b600465cfbe   2 weeks ago    484MB
-postgres                      latest    96f08c06113e   6 weeks ago    438MB
-```
+![Postgres](https://img.shields.io/badge/postgres-%233A6796.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+>
+> O banco de dados escolhido para o projeto foi o PostgreSQL em razão de ser Open-Source e amplamente adotado.
 
-## 3- Suba um container com as imagens utilizando o Docker-Compose
+![Metabase](https://img.shields.io/badge/Metabase%20-%20%23509EE3?style=for-the-badge&logo=metabase&logoColor=white)
+>
+> Também Open-Source e compatível com Docker, o Metabase foi a ferramenta de BI escolhida para a exploração dos dados do projeto.
 
-```bash
-docker-compose up
-```
-*É possível especificar o serviço desejado contido no docker-compose.yml após o comando up, neste caso vamos subir um container com ambos os serviços*
 
-## 4- Exiba os containers ativos
-```shell
-docker ps
-```
-*Output (Truncado para visualização):*
-```bash
-CONTAINER ID   IMAGE               COMMAND                  CREATED          ...
-a24fdf0e24ba   metabase/metabase   "/app/run_metabase.sh"   27 seconds ago   ...
-4c609ec470be   postgres            "docker-entrypoint.s…"   27 seconds ago   ...
-```
-## 6- Caso deseje parar um container
+![Docker](https://img.shields.io/badge/docker-1E63EE.svg?style=for-the-badge&logo=docker&logoColor=white)
+>
+> O Docker foi utilizado para a virtualização do ambiente de execução.
 
-```shell
-docker stop <container_id>
-```
+## Bases de Dados Utilizadas:
 
-## 7- Execute main.py
+[![Kaggle](https://img.shields.io/badge/acesse_o_dataset-29C0FF.svg?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017)
 
-Com os ambientes rodando, já é possível utilizar o script main.py, responsável por obter 3 diferentes arquivos CSV de um endereço online e persisti-los no banco de dados no formato de tabelas.
+## Layout do projeto 
 
-Os acessos para o banco de dados são configurados no arquivo docker-compose e são os seguintes:
-
-## 8- Para acessar o Banco de dados
-
-`Host:`
-```
-0.0.0.0 ou localhost
-```
-`Porta:`
-```
-5432
-```
-`Database:`
-```
-test_db
-```
-`User:`
 ```
 root
-```
-`Senha:`
-```
-root
-```
+├── .bi_volume/ # Diretório vinculado ao conteiner docker na imagem do metabase.
+├── .db_volume/ # Diretório vinculado ao conteiner docker na imagem do postgresql.
+├── backups/ # Diretório com o backup dos dados contidos no .bi_volume e .db_volume.
+├── docs/ # Arquivos de documentação
+├── sql_files/ # Comandos DML para criação de tabelas e views.
+├── src/
+│   └── main.py # Script de ingestão
+├── previews/ # Prints e imagens do projeto
+├── .env # Arquivo com credenciais de acesso ao banco de dados.
+├── requirements.txt
+├── .gitignore
+├── docker-compose.yml # Arquivo de configuração do ambiente do Docker
+├── Dockerfile # Arquivo de configuração do ambiente do Docker
+├── mkDocs.yaml # Arquivo de configuração da documentação
+└── README.md
 
-## 9 Para acessar o Metabase:
-
-Com as tabelas criadas, uma série de perguntas e queries personalizadas para os dados obtidos já estarão disponíveis no metabase.
-
-`URL:`
-```
-localhost::3000
-```
-
-### Credenciais:
-
-`E-mail:`
-```
-admin@provider.com
-```
-`Senha:`
-```
-since2008
-```
-
-No final, os dados coletados e analisados estarão disponíveis em
-```
-http://localhost:3000/dashboard/1-resultados-internacionais-de-futebol-desde-1872?text=Brazil
 ```
