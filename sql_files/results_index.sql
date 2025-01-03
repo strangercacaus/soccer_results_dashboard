@@ -74,4 +74,4 @@ select
 from
 	paises p
 join saldogols s on p.clube = s.clube
-order by 7 desc
+order by 7 desc;

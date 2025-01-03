@@ -1,0 +1,1 @@
+Este diretório contém o volume de dados do metabase, conforme configurado no arquivo docker-compose.yml.

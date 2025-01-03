@@ -8,3 +8,4 @@ env/*
 .DS_Store
 sql_commands/.project
 db/global/pg_control
+_MACOSX

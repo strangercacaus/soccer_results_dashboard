@@ -35,4 +35,4 @@ select
   team,
   gols,
   sum(gols) over (partition by team order by "year" asc rows between unbounded preceding and current row) acumulado
-from gols_ano
+from gols_ano;

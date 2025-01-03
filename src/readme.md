@@ -1,0 +1,1 @@
+Este diretório armazena o código python utilizado no projeto.

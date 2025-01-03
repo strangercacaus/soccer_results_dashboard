@@ -1,4 +1,3 @@
-version: "3"
 services: 
     db:
         image: postgres
@@ -15,6 +14,6 @@ services:
         ports:
             - "3000:3000"
         links:
-            - db
+        - db
         volumes:
-            - "backups/.bi_volume:/metabase.db"
+        - "./volumes/.bi_volume:/metabase.db"

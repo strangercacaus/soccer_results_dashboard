@@ -51,5 +51,4 @@ select *,
 			 when tx_vitoria_geral - tx_vitoria_penalti < 0 then 'pior'
 			 else 'neutro'
 		end as impacto
-from taxas
-
+from taxas;

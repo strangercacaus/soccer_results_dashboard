@@ -66,4 +66,4 @@ from(
 where (case when "rank" = "max" then 'pior'
 when "rank" = 1 then 'melhor'
 else null end ) is not null
-order by "time" asc
+order by "time" asc;

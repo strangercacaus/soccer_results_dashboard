@@ -77,4 +77,4 @@ times_wins_goals as
  	row_number() over (partition by team order by (sum(coalesce(v1, 0)	+coalesce(v2, 0)) ) desc ) rn  
  from times_wins_goals
  group by 1, 2 
- ) select * from team_rank where rn = 1
+ ) select * from team_rank where rn = 1;

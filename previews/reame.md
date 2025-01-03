@@ -1,0 +1,1 @@
+Aqui são encontradas capturas de tela do projeto.

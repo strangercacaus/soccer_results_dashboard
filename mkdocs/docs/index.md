@@ -9,6 +9,7 @@ Ao longo do tempo incluí melhorias de estrutura de projeto e documentação.
 Este projeto possui 2 objetivos principais:
 
 - Explorar o conceito de Conteinerização para gestão de dependências e ambientes virtuais.
+
 - Criar uma estrutura de BI do zero, implementando um banco de dados e uma ferramenta de BI.
 
 ## Tecnologias Utilizadas
