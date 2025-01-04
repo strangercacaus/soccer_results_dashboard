@@ -12,7 +12,7 @@
         <link rel="prev" href="..">
       
       
-        <link rel="next" href="../Consultas_SQL/">
+        <link rel="next" href="../Previews/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Primeiros Passos - Resultados do Futebol desde 1920</title>
+        <title>Setup - Resultados do Futebol desde 1920</title>
       
     
     
@@ -75,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#primeiros-passos" class="md-skip">
+        <a href="#setup" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Primeiros Passos
+              Setup
             
           </span>
         </div>
@@ -238,24 +238,7 @@
   
     
   
-  Primeiros Passos
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../Consultas_SQL/" class="md-tabs__link">
-        
-  
-    
-  
-  Consultas SQL
+  Setup
 
       </a>
     </li>
@@ -363,7 +346,7 @@
           
   
   <span class="md-ellipsis">
-    Primeiros Passos
+    Setup
   </span>
   
 
@@ -374,7 +357,7 @@
         
   
   <span class="md-ellipsis">
-    Primeiros Passos
+    Setup
   </span>
   
 
@@ -396,19 +379,32 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#realizar-a-configuracao-do-ambiente" class="md-nav__link">
-    Realizar a configuração do ambiente
+  <a href="#configuracao-do-ambiente" class="md-nav__link">
+    Configuração do ambiente
   </a>
   
-    <nav class="md-nav" aria-label="Realizar a configuração do ambiente">
+    <nav class="md-nav" aria-label="Configuração do ambiente">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-realizar-o-download-do-docker-desktop" class="md-nav__link">
-    1. Realizar o download do Docker Desktop:
+  <a href="#1-faca-o-download-do-github-desktop" class="md-nav__link">
+    1. Faça o download do Github Desktop:
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    
+  </a>
+  
+    <nav class="md-nav" aria-label="">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#2-realize-o-pull-das-imagens" class="md-nav__link">
@@ -425,29 +421,29 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-crie-um-container-com-as-imagens-utilizando-o-docker-compose" class="md-nav__link">
-    4. Crie  um container com as imagens utilizando o Docker-Compose
+  <a href="#4-crie-e-execute-um-container-com-as-imagens-utilizando-o-docker-compose" class="md-nav__link">
+    4. Crie e execute um container com as imagens utilizando o Docker-Compose
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#5-exiba-os-containers-ativos" class="md-nav__link">
-    5. Exiba os containers ativos
+  <a href="#5-exibir-os-containers-ativos" class="md-nav__link">
+    5. Exibir os containers ativos
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#6-caso-deseje-parar-um-container" class="md-nav__link">
-    6. Caso deseje parar um container
+  <a href="#6-parar-um-container" class="md-nav__link">
+    6. Parar um container
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#7-crie-um-ambiente-virtual-venv" class="md-nav__link">
-    7. Crie um ambiente virtual venv.
+  <a href="#7-criar-um-ambiente-virtual-venv" class="md-nav__link">
+    7. Criar um ambiente virtual venv.
   </a>
   
 </li>
@@ -481,8 +477,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#12-accesso-ao-metabase" class="md-nav__link">
-    12. Accesso ao Metabase:
+  <a href="#12-accessar-o-metabase" class="md-nav__link">
+    12. Accessar o Metabase:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#credenciais" class="md-nav__link">
+    Credenciais:
   </a>
   
 </li>
@@ -492,36 +495,10 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#credenciais" class="md-nav__link">
-    Credenciais:
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Consultas_SQL/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Consultas SQL
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -563,12 +540,11 @@
   
 
 
-<h1 id="primeiros-passos">Primeiros Passos</h1>
+<h1 id="setup">Setup</h1>
+<h3 id="configuracao-do-ambiente">Configuração do ambiente</h3>
 <hr />
-<h3 id="realizar-a-configuracao-do-ambiente">Realizar a configuração do ambiente</h3>
-<hr />
-<h4 id="1-realizar-o-download-do-docker-desktop">1. Realizar o download do Docker Desktop: <a href="https://www.docker.com/products/docker-desktop"><img alt="Docker Desktop" src="https://img.shields.io/badge/Docker_Desktop-blue?style=for-the-badge&amp;logo=docker&amp;logoColor=white" /></a></h4>
-<hr />
+<h4 id="1-faca-o-download-do-github-desktop">1. Faça o download do Github Desktop:</h4>
+<h2 id="_1"><a href="https://www.docker.com/products/docker-desktop"><img alt="Docker Desktop" src="https://img.shields.io/badge/Docker_Desktop-blue?style=for-the-badge&amp;logo=docker&amp;logoColor=white" /></a></h2>
 <h4 id="2-realize-o-pull-das-imagens">2. Realize o pull das imagens:</h4>
 <p><div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>docker<span class="w"> </span>pull<span class="w"> </span>metabase/metabase
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>docker<span class="w"> </span>pull<span class="w"> </span>postgres
@@ -578,17 +554,17 @@
 <h4 id="3-certifique-se-de-que-as-imagens-baixadas-foram-identificadas-pelo-docker">3. Certifique-se de que as imagens baixadas foram identificadas pelo docker</h4>
 <p><div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>docker<span class="w"> </span>image<span class="w"> </span>ls
 </code></pre></div>
-<em>Output:</em>
+<em>Output Exemplo:</em>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>REPOSITORY<span class="w">                    </span>TAG<span class="w">       </span>IMAGE<span class="w"> </span>ID<span class="w">       </span>CREATED<span class="w">        </span>SIZE
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>metabase/metabase<span class="w">             </span>latest<span class="w">    </span>2b600465cfbe<span class="w">   </span><span class="m">2</span><span class="w"> </span>weeks<span class="w"> </span>ago<span class="w">    </span>484MB
 <a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>postgres<span class="w">                      </span>latest<span class="w">    </span>96f08c06113e<span class="w">   </span><span class="m">6</span><span class="w"> </span>weeks<span class="w"> </span>ago<span class="w">    </span>438MB
 </code></pre></div></p>
 <hr />
-<h4 id="4-crie-um-container-com-as-imagens-utilizando-o-docker-compose">4. Crie  um container com as imagens utilizando o Docker-Compose</h4>
-<p><div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>docker-compose<span class="w"> </span>up
+<h4 id="4-crie-e-execute-um-container-com-as-imagens-utilizando-o-docker-compose">4. Crie e execute um container com as imagens utilizando o Docker-Compose</h4>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>docker-compose<span class="w"> </span>up<span class="w"> </span>-d
 </code></pre></div>
 <em>É possível especificar o serviço desejado contido no docker-compose.yml após o comando up, neste caso vamos subir um container com ambos os serviços</em></p>
-<h4 id="5-exiba-os-containers-ativos">5. Exiba os containers ativos</h4>
+<h4 id="5-exibir-os-containers-ativos">5. Exibir os containers ativos</h4>
 <p><div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>docker<span class="w"> </span>ps
 </code></pre></div>
 <em>Output:</em>
@@ -596,54 +572,59 @@
 <a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>a24fdf0e24ba<span class="w">   </span>metabase/metabase<span class="w">   </span><span class="s2">&quot;/app/run_metabase.sh&quot;</span><span class="w">   </span><span class="m">14</span><span class="w"> </span>hours<span class="w"> </span>ago<span class="w">   </span>Up<span class="w"> </span><span class="m">6</span><span class="w"> </span>seconds<span class="w">    </span><span class="m">0</span>.0.0.0:3000-&gt;3000/tcp<span class="w">   </span>desafio-resultados-do-futebol-eng-de-dados-bi-1
 <a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>4c609ec470be<span class="w">   </span>postgres<span class="w">            </span><span class="s2">&quot;docker-entrypoint.s…&quot;</span><span class="w">   </span><span class="m">14</span><span class="w"> </span>hours<span class="w"> </span>ago<span class="w">   </span>Up<span class="w"> </span><span class="m">42</span><span class="w"> </span>minutes<span class="w">   </span><span class="m">0</span>.0.0.0:5432-&gt;5432/tcp<span class="w">   </span>pg_container
 </code></pre></div></p>
-<h4 id="6-caso-deseje-parar-um-container">6. Caso deseje parar um container</h4>
+<h4 id="6-parar-um-container">6. Parar um container</h4>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>docker<span class="w"> </span>stop<span class="w"> </span>&lt;container_id&gt;
 </code></pre></div>
-<h4 id="7-crie-um-ambiente-virtual-venv">7. Crie um ambiente virtual <code>venv</code>.</h4>
+<h4 id="7-criar-um-ambiente-virtual-venv">7. Criar um ambiente virtual <code>venv</code>.</h4>
 <p><div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>env
 </code></pre></div>
 <em>Certifique-se de estar localizado na pasta raiz do projeto no momento da criação do ambiente virtual</em></p>
 <h4 id="8-ative-o-ambiente-virtual">8. Ative o ambiente virtual.</h4>
 <p><div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nb">source</span><span class="w"> </span>env/bin/activate
 </code></pre></div>
-** Assim que o ambiente virtual for ativado, o terminal anternará o valor exibido entre parênteses de <code>base</code> para <code>env</code>:
+** Assim que o ambiente virtual for ativado, o terminal anternará o valor exibido entre parênteses de <code>base</code> para <code>env</code>, como no exemplo:
 <div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>(base) 192:Desafio-Resultados-do-Futebol-Eng.-de-Dados user$ source env/bin/activate
 <a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>(env) (base) 192:Desafio-Resultados-do-Futebol-Eng.-de-Dados user$
 </code></pre></div></p>
 <h4 id="9-instale-os-pacotes-listados-no-arquivo-requirementstxt">9. Instale os pacotes listados no arquivo <code>requirements.txt</code>.</h4>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>pip<span class="w"> </span>instal<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
 </code></pre></div>
 <h4 id="10-execute-o-script-srcmainpy">10.  Execute o Script <code>src/main.py</code></h4>
-<p>Com os containers ativos, já é possível utilizar o script main.py, que irá criar as tabelas descritas nos comandos SQL, obter 3 arquivos CSV do Dataset localizado no Kaggle e inseri-los nas tabelas do Banco de Dados.</p>
+<p>Com os containers ativos, já é possível utilizar o script main.py, que irá criar as tabelas descritas nos comandos SQL, obter 3 arquivos CSV do Dataset localizado no Github e inseri-los nas tabelas do Banco de Dados.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>python3<span class="w"> </span>src/main.py
+</code></pre></div>
 <p>Os acessos para o banco de dados são configurados no arquivo docker-compose e são os seguintes:</p>
 <h4 id="11-acesso-ao-banco-de-dados">11. Acesso ao Banco de Dados</h4>
 <p><code>Host:</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>0.0.0.0 ou localhost
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>0.0.0.0 ou localhost
 </code></pre></div>
 <code>Porta:</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>5432
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>5432
 </code></pre></div>
 <code>Database:</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>test_db
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>test_db
 </code></pre></div>
 <code>User:</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>root
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>root
 </code></pre></div>
 <code>Senha:</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>root
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>root
 </code></pre></div></p>
-<h4 id="12-accesso-ao-metabase">12. Accesso ao Metabase:</h4>
+<h4 id="12-accessar-o-metabase">12. Accessar o Metabase:</h4>
 <p>Com as tabelas criadas, uma série de perguntas e queries personalizadas para os dados obtidos já estarão disponíveis no metabase.</p>
 <p><code>URL:</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>localhost::3000
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>localhost::3000
 </code></pre></div></p>
 <h3 id="credenciais">Credenciais:</h3>
 <p><code>E-mail:</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>admin@provider.com
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>admin@provider.com
 </code></pre></div>
 <code>Senha:</code>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>since2008
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>since2008
 </code></pre></div></p>
+<p><em>ATENÇÃO:</em></p>
+<p>Caso o Metabase solicite a criação de um novo usuário e a configuração manual da conexão com o PostgreSQL, utilize a sigla 'db' no lugar do HOST.</p>
+<p>Este detalhe é necessário pois o Metabase e PostgreSQL estão no mesmo conteiner, o HOST neste caso é identificado pelo nome do serviço definido no arquivo dockerfile.yml</p>
 
 
 

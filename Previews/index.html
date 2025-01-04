@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../Consultas_SQL/">
+        <link rel="prev" href="../Setup/">
       
       
       
@@ -229,29 +229,12 @@
   
   
     <li class="md-tabs__item">
-      <a href="../Primeiros_Passos/" class="md-tabs__link">
+      <a href="../Setup/" class="md-tabs__link">
         
   
     
   
-  Primeiros Passos
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../Consultas_SQL/" class="md-tabs__link">
-        
-  
-    
-  
-  Consultas SQL
+  Setup
 
       </a>
     </li>
@@ -348,30 +331,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../Primeiros_Passos/" class="md-nav__link">
+      <a href="../Setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Primeiros Passos
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Consultas_SQL/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Consultas SQL
+    Setup
   </span>
   
 
@@ -432,29 +396,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#dashboard-no-metabase" class="md-nav__link">
-    Dashboard no Metabase:
+  <a href="#provisionamento-de-banco-de-dados-com-docker" class="md-nav__link">
+    Provisionamento de Banco de Dados com Docker
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ui-no-metabase" class="md-nav__link">
-    UI no Metabase:
+  <a href="#extracao-e-carregamento-de-dados" class="md-nav__link">
+    Extração e Carregamento de Dados
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ui-no-postgresql" class="md-nav__link">
-    UI no PostgreSQL:
+  <a href="#modelagem-e-calculo-de-dados" class="md-nav__link">
+    Modelagem e Cálculo de Dados
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#ui-no-docker" class="md-nav__link">
-    UI no Docker:
+  <a href="#criacao-de-dashboard" class="md-nav__link">
+    Criação de Dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-de-documentacao" class="md-nav__link">
+    Página de Documentação
   </a>
   
 </li>
@@ -486,26 +457,37 @@
 
 
 <h1 id="previews">Previews</h1>
-<h2 id="dashboard-no-metabase">Dashboard no Metabase:</h2>
+<h3 id="provisionamento-de-banco-de-dados-com-docker">Provisionamento de Banco de Dados com Docker</h3>
+<p>Utilizando o Docker, é criado um container contendo a imagem do postgres e metabase, vinculados como serviços.</p>
 <figure>
-<p><a href="https://raw.githubusercontent.com/strangercacaus/resultados_do_futebol_desde_1980/main/previews/Dashboard_Preview.jpg" width="900"><img alt="Dashboard" src="https://raw.githubusercontent.com/strangercacaus/resultados_do_futebol_desde_1980/main/previews/Dashboard_Preview.jpg" /></a></p>
+<p><a href="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/Docker_UI.png?raw=true" width="900"><img alt="Nome da Imagem" src="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/Docker_UI.png?raw=true" /></a></p>
 </figure>
-<hr />
-<h2 id="ui-no-metabase">UI no Metabase:</h2>
 <figure>
-<p><a href="https://raw.githubusercontent.com/strangercacaus/resultados_do_futebol_desde_1980/main/previews/Metabase_UI_Preview.png" width="900"><img alt="Metabase" src="https://raw.githubusercontent.com/strangercacaus/resultados_do_futebol_desde_1980/main/previews/Metabase_UI_Preview.png" /></a></p>
+<p><a href="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/PostgreSQL%20Schema.png?raw=true" width="900"><img alt="Nome da Imagem" src="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/PostgreSQL%20Schema.png?raw=true" /></a></p>
 </figure>
-<hr />
-<h2 id="ui-no-postgresql">UI no PostgreSQL:</h2>
+<h3 id="extracao-e-carregamento-de-dados">Extração e Carregamento de Dados</h3>
+<p>O projeto conta com um script Python que realiza a criação de tabelas numa instância do PostgreSQL, além do download e inserção de 3 arquivos CSV armazenados no Github.</p>
 <figure>
-<p><a href="https://raw.githubusercontent.com/strangercacaus/resultados_do_futebol_desde_1980/main/previews/PostgreSQL_Preview.png" width="900"><img alt="PostgreSQL" src="https://raw.githubusercontent.com/strangercacaus/resultados_do_futebol_desde_1980/main/previews/PostgreSQL_Preview.png" /></a></p>
+<p><a href="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/Python%20Main.png?raw=true" width="900"><img alt="Nome da Imagem" src="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/Python%20Main.png?raw=true" /></a></p>
 </figure>
-<hr />
-<h2 id="ui-no-docker">UI no Docker:</h2>
+<h3 id="modelagem-e-calculo-de-dados">Modelagem e Cálculo de Dados</h3>
+<p>Os dados carregados são modelados utilizando views de banco de dados e perguntas no formato nativo e em SQL no Metabase.</p>
 <figure>
-<p><a href="https://raw.githubusercontent.com/strangercacaus/resultados_do_futebol_desde_1980/main/previews/Docker_Preview.png" width="900"><img alt="Docker" src="https://raw.githubusercontent.com/strangercacaus/resultados_do_futebol_desde_1980/main/previews/Docker_Preview.png" /></a></p>
+<p><a href="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/PostgreSQL%20Views.png?raw=true" width="900"><img alt="Nome da Imagem" src="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/PostgreSQL%20Views.png?raw=true" /></a></p>
 </figure>
-<hr />
+<figure>
+<p><a href="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/Metabase%20Questions%20SQL.png?raw=true" width="900"><img alt="Nome da Imagem" src="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/Metabase%20Questions%20SQL.png?raw=true" /></a></p>
+</figure>
+<h3 id="criacao-de-dashboard">Criação de Dashboard</h3>
+<p>Os resultados das perguntas são organizados em um dashboard filtrável no Metabase</p>
+<figure>
+<p><a href="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/Metabase%20Dashboard.png?raw=true" width="900"><img alt="Nome da Imagem" src="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/Metabase%20Dashboard.png?raw=true" /></a></p>
+</figure>
+<h3 id="pagina-de-documentacao">Página de Documentação</h3>
+<p>Uma página de documentação online foi gerada para o projeto, utilizando o pacote mkdocs para o Python</p>
+<figure>
+<p><a href="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/MKDocs%20Homepage.png?raw=true" width="900"><img alt="Nome da Imagem" src="https://github.com/strangercacaus/soccer_results_dashboard/blob/main/previews/MKDocs%20Homepage.png?raw=true" /></a></p>
+</figure>
 
 
 
