@@ -1,11 +1,7 @@
-.git/*
-db_volume/*
-db/*
-db/base/
-.db_volume/*
-.bi_volume/*
-env/*
+git
+env
+site
+.db_volume
+.bi_volume
 .DS_Store
-sql_commands/.project
-db/global/pg_control
 _MACOSX

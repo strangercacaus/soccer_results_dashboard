@@ -4,7 +4,8 @@
 
 --------
 
- #### 1. Faça o download e a instalação do Docker Desktop [![Docker Desktop](https://img.shields.io/badge/Docker_Desktop-blue?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/products/docker-desktop)
+#### 1. Faça o download do Github Desktop:
+ [![Docker Desktop](https://img.shields.io/badge/Docker_Desktop-blue?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/products/docker-desktop)
 --------
 #### 2. Realize o pull das imagens:
 ```shell
@@ -27,7 +28,7 @@ postgres                      latest    96f08c06113e   6 weeks ago    438MB
 --------
 
 
-#### 4. Crie  um container com as imagens utilizando o Docker-Compose
+#### 4. Crie e execute um container com as imagens utilizando o Docker-Compose
 
 ```bash
 docker-compose up -d

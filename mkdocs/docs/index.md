@@ -32,23 +32,38 @@ Este projeto possui 2 objetivos principais:
 >
 > O Docker foi utilizado para a virtualização do ambiente de execução.
 
-## Layout do projeto
-```
-root
-├── .bi_volume/ # Diretório vinculado ao conteiner docker na imagem do metabase.
-├── .db_volume/ # Diretório vinculado ao conteiner docker na imagem do postgresql.
-├── backups/ # Diretório com o backup dos dados contidos no .bi_volume e .db_volume.
-├── docs/ # Arquivos de documentação
-├── sql_files/ # Comandos DML para criação de tabelas e views.
-├── src/
-│   └── main.py # Script de ingestão
-├── previews/ # Prints e imagens do projeto
-├── .env # Arquivo com credenciais de acesso ao banco de dados.
-├── requirements.txt
-├── .gitignore
-├── docker-compose.yml # Arquivo de configuração do ambiente do Docker
-├── Dockerfile # Arquivo de configuração do ambiente do Docker
-├── mkDocs.yaml # Arquivo de configuração da documentação
-└── README.md
+![mkdocs](https://img.shields.io/badge/MkDocs-blue?style=for-the-badge&logo=mkdocs&logoColor=white)
+>
+> O mkdocs foi utilizado para a criação desta documentação
 
+## Layout do projeto
+
+```
+soccer_results_dashboard
+│   
+├── .bi_volume/ - Diretório de armazenamento dos dados do Metabase.
+│
+├── mkdocs/ - Arquivos de documentação utilizados com o mkdocs
+│   │
+│   └── mkdocs.yml - O arquivo de configuração da página de 
+│   
+├── documentação no mkdocs
+│
+├── sql_files/ - Comandos DML para criação de tabelas e views.
+│
+├── src/
+│   │
+│   └── main.py - Script de ingestão de dados
+│
+├── previews/ - Prints do projeto
+│
+├── .env - Arquivo com credenciais de acesso ao banco de dados.
+│
+├── requirements.txt - Dependências do projeto
+│
+├── .gitignore - Arquivos ignorados pelo git
+│
+├── docker-compose.yml - Arquivo de configuração do ambiente do Docker
+│
+└── README.md - O arquivo que você está lendo agora.
 ```

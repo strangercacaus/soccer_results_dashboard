@@ -59,6 +59,5 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
   - Boas Vindas: 'index.md'
-  - Primeiros Passos: Primeiros_Passos.md
-  - Consultas SQL: Consultas_SQL.md
+  - Setup: Setup.md
   - Previews: Previews.md
